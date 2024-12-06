@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import json
 
-from nltk.app.nemo_app import images
 
 # Load JSON data for the literature review
 with open("/Users/shivamsingh/PycharmProjects/pythonProject1/Journal-Info/AI-Journal-Data.json", "r") as file:
