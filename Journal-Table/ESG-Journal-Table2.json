@@ -1,0 +1,180 @@
+{
+  "Table": {
+    "Title": "Fixed-effects panel regressions on the ESG scores of foreign MNE subsidiaries in the wake of interstate tension",
+    "Dependent Variable": "ESG score",
+    "Models": [
+      {
+        "Model": "Model 1",
+        "Interstate tension (1-year-lagged; mean-centered)": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Historical conflict": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Interaction: Interstate tension × Historical conflict": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Ongoing conflict": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Interaction: Interstate tension × Ongoing conflict": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Total assets (logged)": {
+          "Coefficient": 0.967,
+          "Standard Error": 1.513,
+          "P-value": 0.523
+        },
+        "D/E ratio": {
+          "Coefficient": -0.085,
+          "Standard Error": 0.078,
+          "P-value": 0.280
+        },
+        "ROA": {
+          "Coefficient": -2.734,
+          "Standard Error": 3.574,
+          "P-value": 0.445
+        }
+      },
+      {
+        "Model": "Model 2",
+        "Interstate tension (1-year-lagged; mean-centered)": {
+          "Coefficient": 1.039,
+          "Standard Error": 0.515,
+          "P-value": 0.045
+        },
+        "Historical conflict": {
+          "Coefficient": -5.635,
+          "Standard Error": 4.597,
+          "P-value": 0.222
+        },
+        "Interaction: Interstate tension × Historical conflict": {
+          "Coefficient": 9.036,
+          "Standard Error": 4.376,
+          "P-value": 0.040
+        },
+        "Ongoing conflict": {
+          "Coefficient": -9.042,
+          "Standard Error": 2.386,
+          "P-value": 0.000
+        },
+        "Interaction: Interstate tension × Ongoing conflict": {
+          "Coefficient": -10.603,
+          "Standard Error": 1.245,
+          "P-value": 0.000
+        },
+        "Total assets (logged)": {
+          "Coefficient": 0.900,
+          "Standard Error": 1.517,
+          "P-value": 0.554
+        },
+        "D/E ratio": {
+          "Coefficient": -0.088,
+          "Standard Error": 0.078,
+          "P-value": 0.258
+        },
+        "ROA": {
+          "Coefficient": -2.725,
+          "Standard Error": 3.559,
+          "P-value": 0.445
+        }
+      },
+      {
+        "Model": "Model 3",
+        "Interstate tension (1-year-lagged; mean-centered)": {
+          "Coefficient": 1.019,
+          "Standard Error": 0.499,
+          "P-value": 0.042
+        },
+        "Historical conflict": {
+          "Coefficient": -6.652,
+          "Standard Error": 4.691,
+          "P-value": 0.158
+        },
+        "Interaction: Interstate tension × Historical conflict": {
+          "Coefficient": 9.940,
+          "Standard Error": 4.550,
+          "P-value": 0.030
+        },
+        "Ongoing conflict": {
+          "Coefficient": -8.445,
+          "Standard Error": 2.765,
+          "P-value": 0.003
+        },
+        "Interaction: Interstate tension × Ongoing conflict": {
+          "Coefficient": -9.587,
+          "Standard Error": 1.400,
+          "P-value": 0.000
+        },
+        "Total assets (logged)": {
+          "Coefficient": 0.843,
+          "Standard Error": 1.506,
+          "P-value": 0.576
+        },
+        "D/E ratio": {
+          "Coefficient": -0.088,
+          "Standard Error": 0.078,
+          "P-value": 0.263
+        },
+        "ROA": {
+          "Coefficient": -1.752,
+          "Standard Error": 3.460,
+          "P-value": 0.613
+        }
+      },
+      {
+        "Model": "Model 4",
+        "Interstate tension (1-year-lagged; mean-centered)": {
+          "Coefficient": 1.019,
+          "Standard Error": 0.500,
+          "P-value": 0.043
+        },
+        "Historical conflict": {
+          "Coefficient": -7.145,
+          "Standard Error": 4.867,
+          "P-value": 0.144
+        },
+        "Interaction: Interstate tension × Historical conflict": {
+          "Coefficient": 9.853,
+          "Standard Error": 4.552,
+          "P-value": 0.032
+        },
+        "Ongoing conflict": {
+          "Coefficient": -7.633,
+          "Standard Error": 2.848,
+          "P-value": 0.008
+        },
+        "Interaction: Interstate tension × Ongoing conflict": {
+          "Coefficient": -8.739,
+          "Standard Error": 1.905,
+          "P-value": 0.000
+        },
+        "Total assets (logged)": {
+          "Coefficient": 0.908,
+          "Standard Error": 1.558,
+          "P-value": 0.561
+        },
+        "D/E ratio": {
+          "Coefficient": -0.078,
+          "Standard Error": 0.077,
+          "P-value": 0.313
+        },
+        "ROA": {
+          "Coefficient": -1.214,
+          "Standard Error": 3.348,
+          "P-value": 0.717
+        }
+      }
+    ]
+  }
+}

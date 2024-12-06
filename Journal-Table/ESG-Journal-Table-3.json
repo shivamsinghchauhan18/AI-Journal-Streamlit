@@ -1,0 +1,180 @@
+{
+  "Table": {
+    "Title": "Fixed-effects panel regressions on the ESG scores of foreign MNE subsidiaries in the wake of interstate tension",
+    "Dependent Variable": "ESG score",
+    "Models": [
+      {
+        "Model": "Model 1",
+        "Debt ratio": {
+          "Coefficient": -2.179,
+          "Standard Error": 1.845,
+          "P-value": 0.239
+        },
+        "Property, plant, and equipment (logged)": {
+          "Coefficient": -1.589,
+          "Standard Error": 0.862,
+          "P-value": 0.067
+        },
+        "Ultimate parent: Equity share": {
+          "Coefficient": -0.018,
+          "Standard Error": 0.036,
+          "P-value": 0.609
+        },
+        "Ultimate parent: ESG score": {
+          "Coefficient": 0.046,
+          "Standard Error": 0.056,
+          "P-value": 0.414
+        },
+        "Ultimate parent: Global Fortune 500 company": {
+          "Coefficient": -2.704,
+          "Standard Error": 1.542,
+          "P-value": 0.081
+        },
+        "Ultimate parent: Total assets (logged)": {
+          "Coefficient": -2.499,
+          "Standard Error": 1.932,
+          "P-value": 0.197
+        },
+        "Ultimate parent: D/E ratio": {
+          "Coefficient": -0.008,
+          "Standard Error": 0.012,
+          "P-value": 0.491
+        },
+        "Ultimate parent: ROA": {
+          "Coefficient": -10.528,
+          "Standard Error": 6.350,
+          "P-value": 0.099
+        }
+      },
+      {
+        "Model": "Model 2",
+        "Debt ratio": {
+          "Coefficient": -2.388,
+          "Standard Error": 1.850,
+          "P-value": 0.198
+        },
+        "Property, plant, and equipment (logged)": {
+          "Coefficient": -1.612,
+          "Standard Error": 0.875,
+          "P-value": 0.067
+        },
+        "Ultimate parent: Equity share": {
+          "Coefficient": -0.017,
+          "Standard Error": 0.037,
+          "P-value": 0.653
+        },
+        "Ultimate parent: ESG score": {
+          "Coefficient": 0.040,
+          "Standard Error": 0.057,
+          "P-value": 0.477
+        },
+        "Ultimate parent: Global Fortune 500 company": {
+          "Coefficient": -2.784,
+          "Standard Error": 1.552,
+          "P-value": 0.074
+        },
+        "Ultimate parent: Total assets (logged)": {
+          "Coefficient": -2.688,
+          "Standard Error": 1.968,
+          "P-value": 0.174
+        },
+        "Ultimate parent: D/E ratio": {
+          "Coefficient": -0.009,
+          "Standard Error": 0.013,
+          "P-value": 0.456
+        },
+        "Ultimate parent: ROA": {
+          "Coefficient": -8.715,
+          "Standard Error": 5.886,
+          "P-value": 0.140
+        }
+      },
+      {
+        "Model": "Model 3",
+        "Debt ratio": {
+          "Coefficient": -2.117,
+          "Standard Error": 1.848,
+          "P-value": 0.253
+        },
+        "Property, plant, and equipment (logged)": {
+          "Coefficient": -1.643,
+          "Standard Error": 0.857,
+          "P-value": 0.057
+        },
+        "Ultimate parent: Equity share": {
+          "Coefficient": -0.017,
+          "Standard Error": 0.037,
+          "P-value": 0.638
+        },
+        "Ultimate parent: ESG score": {
+          "Coefficient": 0.048,
+          "Standard Error": 0.057,
+          "P-value": 0.406
+        },
+        "Ultimate parent: Global Fortune 500 company": {
+          "Coefficient": -2.811,
+          "Standard Error": 1.561,
+          "P-value": 0.073
+        },
+        "Ultimate parent: Total assets (logged)": {
+          "Coefficient": -2.345,
+          "Standard Error": 1.867,
+          "P-value": 0.210
+        },
+        "Ultimate parent: D/E ratio": {
+          "Coefficient": -0.007,
+          "Standard Error": 0.013,
+          "P-value": 0.456
+        },
+        "Ultimate parent: ROA": {
+          "Coefficient": -9.907,
+          "Standard Error": 6.075,
+          "P-value": 0.104
+        }
+      },
+      {
+        "Model": "Model 4",
+        "Debt ratio": {
+          "Coefficient": -2.281,
+          "Standard Error": 1.854,
+          "P-value": 0.220
+        },
+        "Property, plant, and equipment (logged)": {
+          "Coefficient": -1.798,
+          "Standard Error": 0.897,
+          "P-value": 0.046
+        },
+        "Ultimate parent: Equity share": {
+          "Coefficient": -0.017,
+          "Standard Error": 0.037,
+          "P-value": 0.701
+        },
+        "Ultimate parent: ESG score": {
+          "Coefficient": 0.042,
+          "Standard Error": 0.059,
+          "P-value": 0.486
+        },
+        "Ultimate parent: Global Fortune 500 company": {
+          "Coefficient": -2.432,
+          "Standard Error": 1.646,
+          "P-value": 0.141
+        },
+        "Ultimate parent: Total assets (logged)": {
+          "Coefficient": -2.535,
+          "Standard Error": 1.901,
+          "P-value": 0.184
+        },
+        "Ultimate parent: D/E ratio": {
+          "Coefficient": -0.008,
+          "Standard Error": 0.013,
+          "P-value": 0.491
+        },
+        "Ultimate parent: ROA": {
+          "Coefficient": -8.293,
+          "Standard Error": 5.725,
+          "P-value": 0.149
+        }
+      }
+    ]
+  }
+}

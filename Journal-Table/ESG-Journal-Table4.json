@@ -1,0 +1,137 @@
+{
+  "Table": {
+    "Title": "Fixed-effects panel regressions on the ESG scores of foreign MNE subsidiaries in the wake of interstate tension",
+    "Dependent Variable": "ESG score",
+    "Models": [
+      {
+        "Model": "Model 1",
+        "Ultimate parent: Debt ratio": {
+          "Coefficient": -1.266,
+          "Standard Error": 6.803,
+          "P-value": 0.853
+        },
+        "Ultimate parent: Property, plant, and equipment (logged)": {
+          "Coefficient": 0.860,
+          "Standard Error": 1.395,
+          "P-value": 0.538
+        },
+        "Home-country average ESG": {
+          "Coefficient": 0.101,
+          "Standard Error": 0.266,
+          "P-value": 0.704
+        },
+        "Host-country average ESG": {
+          "Coefficient": 0.038,
+          "Standard Error": 0.189,
+          "P-value": 0.841
+        },
+        "Historical partnership (1-year-lagged)": {
+          "Coefficient": 29.811,
+          "Standard Error": 5.986,
+          "P-value": 0.000
+        },
+        "Number of global events (1-year-lagged)": {
+          "Coefficient": -1.415,
+          "Standard Error": 1.328,
+          "P-value": 0.288
+        },
+        "Control of corruption": {
+          "Coefficient": 2.061,
+          "Standard Error": 4.303,
+          "P-value": 0.632
+        },
+        "Government effectiveness": {
+          "Coefficient": -9.819,
+          "Standard Error": 5.516,
+          "P-value": 0.077
+        }
+      },
+      {
+        "Model": "Model 2",
+        "Ultimate parent: Debt ratio": {
+          "Coefficient": -0.524,
+          "Standard Error": 6.824,
+          "P-value": 0.939
+        },
+        "Ultimate parent: Property, plant, and equipment (logged)": {
+          "Coefficient": 0.759,
+          "Standard Error": 1.392,
+          "P-value": 0.586
+        },
+        "Home-country average ESG": {
+          "Coefficient": 0.102,
+          "Standard Error": 0.258,
+          "P-value": 0.694
+        },
+        "Host-country average ESG": {
+          "Coefficient": 0.036,
+          "Standard Error": 0.190,
+          "P-value": 0.849
+        },
+        "Historical partnership (1-year-lagged)": {
+          "Coefficient": 29.220,
+          "Standard Error": 5.921,
+          "P-value": 0.000
+        },
+        "Number of global events (1-year-lagged)": {
+          "Coefficient": -1.351,
+          "Standard Error": 1.337,
+          "P-value": 0.313
+        },
+        "Control of corruption": {
+          "Coefficient": 3.020,
+          "Standard Error": 4.238,
+          "P-value": 0.477
+        },
+        "Government effectiveness": {
+          "Coefficient": -9.503,
+          "Standard Error": 5.531,
+          "P-value": 0.087
+        }
+      },
+      {
+        "Model": "Model 3",
+        "Ultimate parent: Debt ratio": {
+          "Coefficient": -0.972,
+          "Standard Error": 6.587,
+          "P-value": 0.883
+        },
+        "Ultimate parent: Property, plant, and equipment (logged)": {
+          "Coefficient": 0.709,
+          "Standard Error": 1.399,
+          "P-value": 0.613
+        },
+        "Home-country average ESG": {
+          "Coefficient": 0.107,
+          "Standard Error": 0.258,
+          "P-value": 0.678
+        },
+        "Host-country average ESG": {
+          "Coefficient": 0.052,
+          "Standard Error": 0.192,
+          "P-value": 0.785
+        },
+        "Historical partnership (1-year-lagged)": {
+          "Coefficient": 39.564,
+          "Standard Error": 10.909,
+          "P-value": 0.000
+        },
+        "Number of global events (1-year-lagged)": {
+          "Coefficient": -1.347,
+          "Standard Error": 1.345,
+          "P-value": 0.318
+        },
+        "Control of corruption": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Government effectiveness": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        }
+      }
+    ]
+  }
+}

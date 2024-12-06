@@ -1,0 +1,115 @@
+{
+  "literature_review": {
+    "basic_information": {
+     "authors": ["Jin Hyung Kim", "Jooyoung Kwak", "Hyung-Kun Park"],
+      "authors_photos": [
+        {
+          "name": "Jin Hyung Kim",
+          "photo": "/Users/shivamsingh/PycharmProjects/pythonProject1/images/Jin_Hyung_Kim_440x500.jpg",
+          "affiliation": "Assistant Professor of International Business at GW School of Business"
+        },
+        {
+          "name": "Jooyoung Kwak",
+          "photo": "/Users/shivamsingh/PycharmProjects/pythonProject1/images/Jooyoung Kwak.jpg",
+          "affiliation": "Yonsei School of Business"
+        },
+        {
+          "name": "Hyung-Kun Park",
+          "photo": "/Users/shivamsingh/PycharmProjects/pythonProject1/images/Hyung-Kun Park.jpg",
+          "affiliation": "PhD Student in Strategic Management, Rice University"
+        }
+      ],
+      "title": "ESG as a nonmarket strategy to cope with geopolitical tension: Empirical evidence from multinationals’ ESG performance",
+      "year_of_publication": 2024,
+      "journal": "Strategic Management Journal",
+      "link": "https://onlinelibrary.wiley.com/doi/10.1002/smj.3671"
+    },
+    "details": {
+      "abstract": "Although rising geopolitical tension is critically affecting multinational enterprises (MNEs), our understanding of geopolitics and its effects on corporate strategy is surprisingly limited. This study sheds light on this underexplored topic by examining the environmental, social, and governance (ESG) strategy of foreign MNEs amid tension between their home and host countries. The study identifies the critical role of media in shaping public perceptions of geopolitical tension and argues that such tension leads foreign MNEs to enhance ESG performance. Historical conflicts positively moderate this relationship, while ongoing conflicts diminish it.",
+      "key_variables": {
+        "independent_variables": ["Interstate tension", "Historical conflict", "Ongoing conflict"],
+        "dependent_variables": ["ESG performance of foreign MNE subsidiaries"],
+        "moderators": ["Historical conflict", "Ongoing conflict"]
+      },
+      "sample_and_data_sources": {
+        "sample": "1433 firm-year observations of 207 subsidiaries of foreign MNEs from 23 home countries, operating in 34 host countries, spanning 2002–2019.",
+        "data_sources": ["Refinitiv Eikon for ESG performance", "GDELT for interstate tension metrics"]
+      },
+      "theory_and_theoretical_basis": {
+        "conceptual_foundation": [
+          "The study operates within the framework of institutional theory and legitimacy theory, examining how multinational enterprises (MNEs) respond to institutional pressure in host countries when geopolitical tension arises."
+        ],
+        "key_theoretical_insights": [
+          "Legitimacy: ESG activities are posited as mechanisms to enhance the legitimacy of foreign MNE subsidiaries in host countries, ensuring their survival and continuity amidst heightened geopolitical tension.",
+          "Stakeholder Perceptions: Media plays a critical role in shaping public perceptions, magnifying the institutional pressure felt by MNEs.",
+          "Collective Memory: Historical conflicts between home and host countries serve as a latent influence, shaping stakeholder expectations and institutional dynamics over time."
+        ],
+        "central_argument": "ESG performance acts as an 'insurance-like' strategy to mitigate institutional risks and bolster MNEs’ position in host markets."
+      },
+      "hypotheses": [
+        {
+          "H1": "As media-reported interstate tension between home and host countries increases, foreign MNE subsidiaries enhance ESG performance.",
+          "rationale": "Rising tension increases public scrutiny, pushing MNEs to adopt visible ESG initiatives to manage reputational risk and institutional legitimacy."
+        },
+        {
+          "H2": "A history of conflict positively moderates the relationship between interstate tension and ESG performance.",
+          "rationale": "Historical conflicts strengthen the salience of institutional pressure, amplifying the need for MNEs to invest in ESG activities."
+        },
+        {
+          "H3": "Ongoing conflict diminishes the positive relationship between interstate tension and ESG performance.",
+          "rationale": "Active conflicts may shift stakeholder priorities from ESG concerns to immediate geopolitical or survival imperatives, reducing the effectiveness of ESG as a strategy."
+        }
+      ],
+      "method_statistical_method": {
+        "research_design": [
+          "The study employs a quantitative, longitudinal research design using panel data.",
+          "Fixed-effects panel regression models are utilized to control for unobserved heterogeneity."
+        ],
+        "key_statistical_tools": [
+          "Dependent Variable: ESG performance (measured using ESG scores from Refinitiv Eikon).",
+          "Independent Variables: Media-reported interstate tension, historical conflict, and ongoing conflict.",
+          "Moderators: Historical conflict and ongoing conflict as interaction terms.",
+          "Control Variables: Firm size, industry characteristics, economic indicators, and institutional quality."
+        ],
+        "analytical_details": [
+          "Conflict Metrics: The Goldstein conflict-cooperation scale is used to quantify interstate tension.",
+          "Lagged Variables: A lagged explanatory variable approach is used to address potential reverse causality.",
+          "Standard Errors: Robust standard errors are clustered at the subsidiary level to account for within-group correlation."
+        ]
+      },
+      "results_and_conclusions": {
+        "substitution_dynamics": [
+          "Foreign MNEs intensify ESG performance in response to rising interstate tension.",
+          "Media-reported tension amplifies the salience of institutional expectations, prompting MNEs to proactively engage in ESG initiatives."
+        ],
+        "moderating_effects": {
+          "historical_conflict": [
+            "Amplifies the positive relationship between interstate tension and ESG performance.",
+            "Reflects the role of collective memory in shaping stakeholder perceptions and expectations of MNE behavior."
+          ],
+          "ongoing_conflict": [
+            "Weakens the positive relationship between interstate tension and ESG performance.",
+            "Suggests that active conflicts may reprioritize stakeholder concerns, reducing the efficacy of ESG as a strategic response."
+          ]
+        },
+        "strategic_implications": [
+          "ESG activities serve as a nonmarket strategy that helps MNEs manage reputational risks, enhance legitimacy, and address institutional challenges in host countries.",
+          "The findings underscore the dual role of historical and ongoing conflicts in moderating the effectiveness of nonmarket strategies."
+        ]
+      },
+      "criticism_and_future_research": {
+        "criticism": [
+          "Limited Scope of Nonmarket Strategies: The study focuses exclusively on ESG activities as a nonmarket strategy, overlooking other potential strategies such as lobbying, corporate philanthropy, or local partnerships.",
+          "Endogeneity Concerns: Despite the use of lagged explanatory variables, there may still be concerns about endogeneity in the relationship between interstate tension and ESG performance.",
+          "Context-Specific Findings: The findings are heavily contextualized within MNEs and geopolitical tension, which may limit generalizability to other types of firms or nonmarket environments."
+        ],
+        "future_research_directions": [
+          "Broader Exploration of Nonmarket Strategies: Future studies should explore additional nonmarket strategies, such as public relations campaigns, strategic alliances, or policy advocacy, in response to geopolitical tension.",
+          "Longitudinal Analysis of ESG Effectiveness: Examine the long-term impact of ESG initiatives in mitigating institutional pressures and fostering sustainable competitive advantage.",
+          "Cross-Industry Comparisons: Investigate the differential use of ESG strategies across various industries, such as technology, manufacturing, or finance, in the context of geopolitical risk.",
+          "Geopolitical Complexity: Analyze how varying degrees of geopolitical complexity (e.g., multilateral conflicts vs. bilateral tensions) influence corporate nonmarket strategies."
+        ]
+      }
+    }
+  }
+}

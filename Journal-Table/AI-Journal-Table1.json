@@ -1,0 +1,131 @@
+{
+    "Variables": [
+        "Player capabilities",
+        "Opponent capabilities",
+        "Player set",
+        "Player members",
+        "Player gender",
+        "Player age",
+        "Tournament system - K.O.",
+        "Tournament system - Round-Robin",
+        "Tournament system - Scheveningen",
+        "Tournament system - Simultaneous",
+        "Tournament system - Tournament round",
+        "Time controls - Rapid (<60 min; >10 min)",
+        "Time controls - Blitz (<=10 min)",
+        "Constant"
+    ],
+    "Conventional": {
+        "Win": [
+            0.0048,
+            -0.006,
+            -0.5302,
+            null,
+            -0.365,
+            -0.0206,
+            0.1807,
+            null,
+            -0.0928,
+            1.3296,
+            -0.0179,
+            0.6822,
+            1.1115,
+            -10.5301
+        ],
+        "Loss": [
+            -0.004,
+            0.003,
+            0.2149,
+            null,
+            -0.1877,
+            -0.004,
+            0.3012,
+            null,
+            0.3885,
+            -14.2804,
+            0.0241,
+            0.7238,
+            1.2022,
+            1.8149
+        ]
+    },
+    "Centaur": {
+        "Win": [
+            0.0001,
+            -0.0006,
+            -0.5059,
+            0.1637,
+            -2.1446,
+            -0.0004,
+            -1.8134,
+            null,
+            -0.5858,
+            null,
+            0.0321,
+            -0.0019,
+            1.6001,
+            -17.6551
+        ],
+        "Loss": [
+            -0.0009,
+            0.0003,
+            0.6635,
+            -1.3012,
+            -1.1781,
+            0.007,
+            -1.3638,
+            null,
+            -0.0325,
+            null,
+            0.0526,
+            0.1362,
+            1.939,
+            0.3667
+        ]
+    },
+    "Engine": {
+        "Win": [
+            -0.0208,
+            -0.0039,
+            -1.6524,
+            -0.992,
+            -0.2492,
+            -0.1422,
+            null,
+            null,
+            null,
+            0.039,
+            0.0577,
+            1.939,
+            77.9088
+        ],
+        "Loss": [
+            -0.0273,
+            -0.0013,
+            1.256,
+            null,
+            -0.2492,
+            0.0635,
+            -0.0835,
+            null,
+            null,
+            null,
+            0.1436,
+            0.087,
+            2.1522,
+            62.0155
+        ]
+    },
+    "Statistics": {
+        "Pseudo R^2": {
+            "Conventional": 12.78,
+            "Centaur": 14.21,
+            "Engine": 29.35
+        },
+        "N": {
+            "Conventional": 4929,
+            "Centaur": 905,
+            "Engine": 122
+        }
+    }
+}

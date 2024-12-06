@@ -1,0 +1,97 @@
+{
+    "Table": {
+        "Independent variable": [
+            "Player capabilities",
+            "Machine capabilities",
+            "Opponent capabilities",
+            "Player set",
+            "Player members",
+            "Player gender",
+            "Player age",
+            "Tournament system - K.O.",
+            "Tournament system - Round-Robin",
+            "Tournament system - Scheveningen",
+            "Tournament system - Simultaneous",
+            "Tournament system - Tournament round",
+            "Time controls - Rapid (<60 min; >10 min)",
+            "Time controls - Blitz (≤10 min)",
+            "Constant"
+        ],
+        "Centaur Games (Win)": [
+            "-0.0003 (.5762)",
+            "0.0004 (.8480)",
+            "-0.0006 (.1392)",
+            "-0.3997 (.1026)",
+            "-0.0675 (.8433)",
+            "-2.2525 (.1103)",
+            "-0.0058 (.7382)",
+            "",
+            "-0.5498 (.3236)",
+            "",
+            "",
+            "0.0582 (.0943)",
+            "-0.2975 (.6450)",
+            "2.3335 (.1239)",
+            "-0.3896 (.9416)"
+        ],
+        "Centaur Games (Loss)": [
+            "-0.0016 (.0085)",
+            "-0.0004 (.8417)",
+            "0.0005 (.2793)",
+            "0.9537 (.0010)",
+            "-26.1369 (.9874)",
+            "10.6006 (.9928)",
+            "0.0205 (.2844)",
+            "",
+            "-0.5481 (.4706)",
+            "",
+            "",
+            "0.0612 (.1198)",
+            "0.2186 (.7701)",
+            "2.3335 (.1851)",
+            "26.6596 (.9872)"
+        ],
+        "Engine Games (Win)": [
+            "0.0577 (.5857)",
+            "-0.0696 (.2845)",
+            "-0.0094 (.1425)",
+            "-21.0781 (.9966)",
+            "",
+            "",
+            "5.5582 (.3011)",
+            "",
+            "",
+            "",
+            "",
+            "0.0390 (.8586)",
+            "",
+            "",
+            "-115.9203 (.9928)"
+        ],
+        "Engine Games (Loss)": [
+            "-0.0228 (.8412)",
+            "-0.0048 (.9201)",
+            "-0.0020 (.6463)",
+            "-0.3694 (.7723)",
+            "",
+            "",
+            "1.3977 (.6342)",
+            "",
+            "",
+            "",
+            "",
+            "-0.2414 (.0779)",
+            "",
+            "",
+            "-4.1883 (.9850)"
+        ],
+        "Pseudo R²": {
+            "Centaur Games": "18.43%",
+            "Engine Games": "51.01%"
+        },
+        "N": {
+            "Centaur Games": "499",
+            "Engine Games": "74"
+        }
+    }
+}

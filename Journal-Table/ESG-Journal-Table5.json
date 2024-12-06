@@ -1,0 +1,225 @@
+{
+  "Table": {
+    "Title": "Fixed-effects panel regressions on the ESG scores of foreign MNE subsidiaries in the wake of interstate tension",
+    "Dependent Variable": "ESG score",
+    "Models": [
+      {
+        "Model": "Model 1",
+        "Regulatory quality": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Rule of law": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Political stability": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Constant": {
+          "Coefficient": 34.751,
+          "Standard Error": 32.356,
+          "P-value": 0.284
+        },
+        "Year fixed effects": "Included",
+        "Industry fixed effects": "Included",
+        "Home-host country pair fixed effects": "Included",
+        "Firm fixed effects": "Included",
+        "Adjusted R-squared": 0.806,
+        "Number of home- and host-country pairs": 86,
+        "Number of firms": 207,
+        "Number of observations": 1433
+      },
+      {
+        "Model": "Model 2",
+        "Regulatory quality": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Rule of law": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Political stability": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Constant": {
+          "Coefficient": 37.324,
+          "Standard Error": 32.306,
+          "P-value": 0.249
+        },
+        "Year fixed effects": "Included",
+        "Industry fixed effects": "Included",
+        "Home-host country pair fixed effects": "Included",
+        "Firm fixed effects": "Included",
+        "Adjusted R-squared": 0.807,
+        "Number of home- and host-country pairs": 86,
+        "Number of firms": 207,
+        "Number of observations": 1433
+      },
+      {
+        "Model": "Model 3",
+        "Regulatory quality": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Rule of law": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Political stability": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Constant": {
+          "Coefficient": 31.381,
+          "Standard Error": 32.313,
+          "P-value": 0.333
+        },
+        "Year fixed effects": "Included",
+        "Industry fixed effects": "Included",
+        "Home-host country pair fixed effects": "Included",
+        "Firm fixed effects": "Included",
+        "Adjusted R-squared": 0.808,
+        "Number of home- and host-country pairs": 86,
+        "Number of firms": 207,
+        "Number of observations": 1433
+      },
+      {
+        "Model": "Model 4",
+        "Regulatory quality": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Rule of law": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Political stability": {
+          "Coefficient": null,
+          "Standard Error": null,
+          "P-value": null
+        },
+        "Constant": {
+          "Coefficient": 72.912,
+          "Standard Error": 47.014,
+          "P-value": 0.122
+        },
+        "Year fixed effects": "Included",
+        "Industry fixed effects": "Included",
+        "Home-host country pair fixed effects": "Included",
+        "Firm fixed effects": "Included",
+        "Adjusted R-squared": 0.809,
+        "Number of home- and host-country pairs": 86,
+        "Number of firms": 205,
+        "Number of observations": 1407
+      },
+      {
+        "Model": "Model 5",
+        "Regulatory quality": {
+          "Coefficient": -0.084,
+          "Standard Error": 4.313,
+          "P-value": 0.984
+        },
+        "Rule of law": {
+          "Coefficient": 9.453,
+          "Standard Error": 7.247,
+          "P-value": 0.194
+        },
+        "Political stability": {
+          "Coefficient": 0.536,
+          "Standard Error": 2.752,
+          "P-value": 0.846
+        },
+        "Constant": {
+          "Coefficient": 71.434,
+          "Standard Error": 46.504,
+          "P-value": 0.126
+        },
+        "Year fixed effects": "Included",
+        "Industry fixed effects": "Included",
+        "Home-host country pair fixed effects": "Included",
+        "Firm fixed effects": "Included",
+        "Adjusted R-squared": 0.810,
+        "Number of home- and host-country pairs": 86,
+        "Number of firms": 205,
+        "Number of observations": 1407
+      },
+      {
+        "Model": "Model 6",
+        "Regulatory quality": {
+          "Coefficient": -0.804,
+          "Standard Error": 4.262,
+          "P-value": 0.851
+        },
+        "Rule of law": {
+          "Coefficient": 8.511,
+          "Standard Error": 7.286,
+          "P-value": 0.244
+        },
+        "Political stability": {
+          "Coefficient": 0.848,
+          "Standard Error": 2.758,
+          "P-value": 0.759
+        },
+        "Constant": {
+          "Coefficient": 73.146,
+          "Standard Error": 46.559,
+          "P-value": 0.118
+        },
+        "Year fixed effects": "Included",
+        "Industry fixed effects": "Included",
+        "Home-host country pair fixed effects": "Included",
+        "Firm fixed effects": "Included",
+        "Adjusted R-squared": 0.811,
+        "Number of home- and host-country pairs": 86,
+        "Number of firms": 205,
+        "Number of observations": 1407
+      },
+      {
+        "Model": "Model 7",
+        "Regulatory quality": {
+          "Coefficient": -0.804,
+          "Standard Error": 4.262,
+          "P-value": 0.851
+        },
+        "Rule of law": {
+          "Coefficient": 8.511,
+          "Standard Error": 7.286,
+          "P-value": 0.244
+        },
+        "Political stability": {
+          "Coefficient": 0.848,
+          "Standard Error": 2.758,
+          "P-value": 0.759
+        },
+        "Constant": {
+          "Coefficient": 71.114,
+          "Standard Error": 46.180,
+          "P-value": 0.125
+        },
+        "Year fixed effects": "Included",
+        "Industry fixed effects": "Included",
+        "Home-host country pair fixed effects": "Included",
+        "Firm fixed effects": "Included",
+        "Adjusted R-squared": 0.811,
+        "Number of home- and host-country pairs": 86,
+        "Number of firms": 205,
+        "Number of observations": 1407
+      }
+    ]
+  }
+}
