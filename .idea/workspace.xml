@@ -1,33 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6d7906d-3b65-46ec-85ea-09879167e1e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Strategic Management.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI-Journal-Data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ESG-Journal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Info/AI-Journal-Data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Info/ESG-Journal-Data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Table/AI-Journal-Table1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Table/AI-Journal-Table2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Table/AI-Journal-Table3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Table/AI-Journal-Table4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Table/ESG-Journal-Table-3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Table/ESG-Journal-Table1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Table/ESG-Journal-Table2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Table/ESG-Journal-Table4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Table/ESG-Journal-Table5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Hyung-Kun Park.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Jin_Hyung_Kim_440x500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Johannes-Luger.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Jooyoung Kwak.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Sebastian-Raisch.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images.jpeg" afterDir="false" />
-    </list>
+    <list default="true" id="b6d7906d-3b65-46ec-85ea-09879167e1e4" name="Changes" comment="Initial Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,11 +56,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733515301619</updated>
-      <workItem from="1733515307844" duration="451000" />
+      <workItem from="1733515307844" duration="886000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1733516185133</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733516185133</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
