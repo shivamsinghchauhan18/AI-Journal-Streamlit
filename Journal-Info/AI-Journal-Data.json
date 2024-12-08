@@ -1,92 +1,123 @@
 {
-    "literature_review": {
-        "basic_information": {
-            "authors": [
-                "Sebastian Krakowski",
-                "Johannes Luger",
-                "Sebastian Raisch"
-            ],
-            "title": "Artificial intelligence and the changing sources of competitive advantage",
-            "year": 2022,
-            "journal": "Strategic Management Journal",
-            "link": "https://doi.org/10.1002/smj.3387"
+  "literature_review": {
+    "basic_information": {
+      "authors": [
+        {
+          "name": "Sebastian Krakowski",
+          "affiliation": "Professor of Strategy, Stockholm School of Economics",
+          "expertise": "Artificial intelligence in competitive strategy, human-machine collaboration",
+          "photo": "/path/to/sebastian-krakowski.jpg"
         },
-        "details": {
-            "abstract": "We apply a resource-based view to investigate how the adoption of Artificial Intelligence (AI) affects competitive capabilities and performance. Following prior work on using chess as a controlled setting for studying competitive interactions, we compare the same players' capabilities and performance across conventional, centaur, and engine chess tournaments. Our analysis shows that AI adoption triggers interrelated substitution and complementation dynamics, which make humans' traditional competitive capabilities obsolete, while creating new sources of persistent heterogeneity when humans interact with chess engines. These novel human-machine capabilities are unrelated, or even negatively related, to traditional capabilities. We contribute an integrated view of substitution and complementation, which identifies AI as the driver of these dynamics and explains how they jointly shift the sources of competitive advantage.",
-            "theory": {
-                "basis": "Resource-Based View (RBV)",
-                "key_insights": [
-                    "Traditional cognitive capabilities are valuable due to heterogeneity, scarcity, and imitation resistance.",
-                    "AI introduces substitution (reducing traditional capability value) and complementation (creating new resource bundles)."
-                ]
-            },
-            "hypotheses": {
-                "questions_explored": [
-                    "How does AI substitute human cognitive capabilities?",
-                    "How does AI complement humans in generating new capabilities?",
-                    "How are substitution and complementation dynamics interrelated?"
-                ]
-            },
-            "key_variables": {
-                "independent_variables": [
-                    "Human capabilities (Elo ratings from conventional chess games)",
-                    "Machine capabilities (Chess engines' Elo ratings)"
-                ],
-                "dependent_variables": [
-                    "Chess performance outcomes: Win, Loss, Draw",
-                    "Ply quality (positive and negative plies)"
-                ],
-                "moderators": [
-                    "Human-machine interaction effects in centaur games",
-                    "Complementary dynamics like engine tuning and strategic human inputs"
-                ]
-            },
-            "sample_and_data_sources": {
-                "sample": "112 unique players from 39 federations, participating in 3,281 tournaments across conventional, centaur, and engine chess formats.",
-                "data_sources": [
-                    "FICGS (Free Internet Correspondence Games Server)",
-                    "Infinity Chess",
-                    "PAL Computer Systems",
-                    "Computerschach & Spiele",
-                    "ChessBase Mega Database 2018"
-                ]
-            },
-            "results_and_conclusions": {
-                "substitution_dynamics": [
-                    "Erosion of Human Capabilities: AI substitutes traditional human cognitive capabilities in chess, rendering these capabilities less valuable. In centaur and engine formats, human Elo ratings, which were predictive of outcomes in conventional chess, lose their significance.",
-                    "AI engines outperform humans in consistent and high-quality decision-making due to their superior computational power, faster processing, and absence of human limitations such as fatigue and emotional bias.",
-                    "Impact on Game Performance: In engine games, chess engines completely replace human decision-making capabilities. The rate of both positive and negative plies decreases in centaur and engine games, indicating reduced human error and optimized decision-making through AI.",
-                    "Outcome Convergence: Centaur and engine games show more draws and longer game durations compared to conventional games. This suggests reduced performance heterogeneity due to AI, which levels the playing field by standardizing outcomes."
-                ],
-                "complementation_dynamics": [
-                    "Emergence of Human–Machine Collaboration: In centaur chess, humans and machines collaborate, leveraging AI's tactical strength and human strategic insights.",
-                    "Humans influence outcomes by tuning engines, selecting appropriate databases, and exploiting the weaknesses of opponents’ engines.",
-                    "Human creativity, contextual understanding, and adaptability complement AI’s capabilities, leading to unique human–machine synergies.",
-                    "New Capabilities: Engine tuning to optimize performance, strategic use of AI outputs, and adaptation to opponents' style or weaknesses using engine guidance.",
-                    "Performance Differentiation: Human-AI collaboration drives performance differentiation: In centaur games, human–machine capabilities increase the likelihood of winning. In engine games, complementary skills help humans mitigate losses."
-                ],
-                "limitations_of_machine_capabilities": [
-                    "Machine capabilities alone do not lead to significant performance differences, as AI technologies are widely accessible and standardized, reducing heterogeneity."
-                ],
-                "conclusion": [
-                    "Dual Effects of AI Adoption: Substitution - AI erodes traditional cognitive capabilities by offering abundant and superior alternatives.",
-                    "Complementation - AI enables the creation of new human–machine resource bundles that drive competitive advantage.",
-                    "Shifting Competitive Advantage: The integration of AI leads to a shift in the source of competitive advantage from human-only cognitive capabilities to human–machine capabilities.",
-                    "Implications for Strategy and Practice: Organizations must focus on nurturing human skills that complement AI, such as creativity, contextualization, and strategic thinking, embracing AI-driven workflows, and ensuring continuous learning to adapt to AI’s evolving capabilities."
-                ]
-            },
-            "criticism_and_future_research": {
-                "criticism": [
-                    "Context-Specific Limitations: Findings are based on the controlled chess context, which may not generalize to broader business or organizational settings. Chess tournaments lack the variability and complexity of real-world strategic decisions.",
-                    "Lack of Practical Integration: The study assumes high-level integration of AI, which may not reflect current organizational realities in various industries.",
-                    "Limited Scope: The study does not explore variations in AI capability across domains or tasks outside chess."
-                ],
-                "future_research_directions": [
-                    "Broader Application: Investigate AI-driven substitution and complementation in dynamic and uncertain business environments. Explore industries where human-machine collaboration has already begun, such as healthcare or finance.",
-                    "Skill Development: Examine how organizations can nurture human 'augmentation skills' to complement AI capabilities.",
-                    "Economic Implications: Study how cost dynamics and accessibility of AI technologies influence their substitutive and complementary roles."
-                ]
-            }
+        {
+          "name": "Johannes Luger",
+          "affiliation": "Professor of Strategic Management, University of St. Gallen",
+          "expertise": "Resource-based view, strategic capabilities, and technology adoption",
+          "photo": "/path/to/johannes-luger.jpg"
+        },
+        {
+          "name": "Sebastian Raisch",
+          "affiliation": "Professor of Strategy, University of Geneva",
+          "expertise": "Organizational adaptation, AI-driven competitive advantage",
+          "photo": "/path/to/sebastian-raisch.jpg"
         }
+      ],
+      "title": "Artificial Intelligence and the Changing Sources of Competitive Advantage",
+      "year_of_publication": 2022,
+      "journal": {
+        "name": "Strategic Management Journal",
+        "publisher": "Wiley-Blackwell",
+        "impact": "Premier journal for research on strategic management and technological advancements"
+      },
+      "doi": "https://doi.org/10.1002/smj.3387"
+    },
+    "abstract": {
+      "summary": "This study applies the resource-based view to investigate the impact of artificial intelligence (AI) on competitive advantage and performance. Using chess as a controlled context, it highlights how AI-driven substitution and complementation dynamics affect human-machine collaboration and performance differentiation, reshaping traditional strategic capabilities."
+    },
+    "details": {
+      "theory_and_theoretical_basis": {
+        "core_theories": [
+          {
+            "name": "Resource-Based View (RBV)",
+            "description": "AI reshapes competitive capabilities by substituting traditional human skills while enabling new human-machine resource bundles."
+          }
+        ],
+        "key_insights": [
+          "Traditional cognitive capabilities lose value with AI adoption.",
+          "AI creates new competitive capabilities through complementation with human adaptability and strategic insights."
+        ]
+      },
+      "hypotheses": [
+        {
+          "H1": "AI adoption substitutes traditional human cognitive capabilities, reducing their strategic value.",
+          "rationale": "AI's superior computational power and consistency outperform human decision-making in repetitive tasks."
+        },
+        {
+          "H2": "AI complements human strategic thinking, enabling new competitive advantages.",
+          "rationale": "Human creativity and adaptability combine with AI's tactical precision to enhance performance."
+        },
+        {
+          "H3": "Substitution and complementation dynamics are interrelated and collectively reshape competitive advantage.",
+          "rationale": "AI influences both elimination of traditional capabilities and creation of innovative human-machine synergies."
+        }
+      ],
+      "key_variables": {
+        "independent_variables": [
+          "Human capabilities (Elo ratings from chess games)",
+          "Machine capabilities (Elo ratings of chess engines)"
+        ],
+        "dependent_variables": [
+          "Chess performance outcomes: Win, Loss, Draw",
+          "Ply quality (positive/negative plies per move)"
+        ],
+        "moderators": [
+          {
+            "name": "Human-Machine Interaction Effects",
+            "description": "The interaction dynamics in centaur games where humans use AI assistance."
+          },
+          {
+            "name": "Engine Tuning and Strategic Inputs",
+            "description": "Human decisions on engine configurations and database usage influencing outcomes."
+          }
+        ]
+      },
+      "sample_and_data_sources": {
+        "sample": "112 players from 39 federations, participating in 3,281 chess tournaments.",
+        "industries": ["Chess (controlled context for AI-human collaboration)"],
+        "data_sources": [
+          "FICGS (Free Internet Correspondence Games Server)",
+          "Infinity Chess",
+          "PAL Computer Systems",
+          "ChessBase Mega Database 2018"
+        ]
+      },
+      "results_and_conclusions": {
+        "substitution_dynamics": [
+          "AI substitutes traditional cognitive capabilities, making human Elo ratings less predictive.",
+          "In engine chess, AI fully replaces human decision-making capabilities."
+        ],
+        "complementation_dynamics": [
+          "Human-machine collaboration in centaur chess creates new competitive advantages.",
+          "Human creativity and contextual understanding complement AI’s tactical precision."
+        ],
+        "quantitative_insights": [
+          "Human-AI collaboration leads to increased win probabilities in centaur games.",
+          "AI-driven substitution reduces performance heterogeneity in engine games."
+        ],
+        "strategic_implications": [
+          "Organizations should nurture skills complementing AI capabilities, like creativity and strategic decision-making.",
+          "AI adoption shifts competitive advantage from traditional capabilities to human-machine synergies."
+        ]
+      },
+      "criticism_and_future_research": {
+        "criticism": [
+          "Findings are limited to chess, which may not generalize to real-world strategic contexts.",
+          "High-level AI integration assumed in the study may not reflect current industry realities."
+        ],
+        "future_research_directions": [
+          "Apply findings to dynamic industries like healthcare and finance.",
+          "Explore human 'augmentation skills' to complement AI-driven strategies."
+        ]
+      }
     }
+  }
 }

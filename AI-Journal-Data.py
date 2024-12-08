@@ -1,5 +1,5 @@
 import os
-
+import nltk
 import streamlit as st
 import pandas as pd
 import json
@@ -7,7 +7,7 @@ import json
 
 # Load Custom CSS
 def load_css(css_file_path):
-    with open("/Styling/Genereal-Styling.css", "r") as css_file:
+    with open("/Users/shivamsingh/PycharmProjects/Strategic Management/Styling/Genereal-Styling.css", "r") as css_file:
         st.markdown(f"<style>{css_file.read()}</style>", unsafe_allow_html=True)
 
 # Embed the CSS
@@ -37,80 +37,92 @@ with open("/Users/shivamsingh/PycharmProjects/pythonProject1/Journal-Table/AI-Jo
 with open("/Users/shivamsingh/PycharmProjects/pythonProject1/Journal-Table/AI-Journal-Table4.json", "r") as file:
     AI_Journal_data_table_4 = json.load(file)
 
-# App Title and Basic Information
+# Title and Basic Information
 st.title(AI_Journal_data["literature_review"]["basic_information"]["title"])
-st.subheader("Authors: " + ", ".join(AI_Journal_data["literature_review"]["basic_information"]["authors"]))
-st.write(f"Year: {AI_Journal_data['literature_review']['basic_information']['year']}")
-st.write(f"Journal: {AI_Journal_data['literature_review']['basic_information']['journal']}")
-st.write(f"[Read the Article]({AI_Journal_data['literature_review']['basic_information']['link']})")
 
-
-# Add spacing
-st.markdown("<br><br>", unsafe_allow_html=True)
-
-# Add Author Photos
-st.subheader("Authors")
-authors = [
-    {"name": "Sebastian Krakowski", "photo": "/Users/shivamsingh/PycharmProjects/pythonProject1/images/images.jpeg", "affiliation": "Stockholm School of Economics"},
-    {"name": "Johannes Luger", "photo": "/Users/shivamsingh/PycharmProjects/pythonProject1/images/Johannes-Luger.jpg", "affiliation": "Copenhagen Business School"},
-    {"name": "Sebastian Raisch", "photo": "/Users/shivamsingh/PycharmProjects/pythonProject1/images/Sebastian-Raisch.jpg", "affiliation": "University of Geneva"},
-]
-
+# Authors Section
+st.header("Authors")
+authors = AI_Journal_data["literature_review"]["basic_information"]["authors"]
 cols = st.columns(len(authors))
+
 for idx, author in enumerate(authors):
     with cols[idx]:
-        st.image(author["photo"], width=150)
-        st.subheader(author["name"])
-        st.caption(author["affiliation"])
+        st.image(author["photo"], caption=author["name"], use_container_width=True)
+        st.markdown(f"<p><b>Name:</b> {author['name']}</p>", unsafe_allow_html=True)
+        st.markdown(f"<p><b>Affiliation:</b> {author['affiliation']}</p>", unsafe_allow_html=True)
+        st.markdown(f"<p><b>Expertise:</b> {author['expertise']}</p>", unsafe_allow_html=True)
 
-
-# Add a horizontal divider and spacing
-st.markdown("---")
-st.markdown("<br>", unsafe_allow_html=True)
+# Year of Publication and Journal
+st.markdown(f"<p><b>Year of Publication:</b> {AI_Journal_data['literature_review']['basic_information']['year_of_publication']}</p>", unsafe_allow_html=True)
+journal_info = AI_Journal_data["literature_review"]["basic_information"]["journal"]
+st.markdown(f"<p><b>Journal:</b> {journal_info['name']} ({journal_info['publisher']})</p>", unsafe_allow_html=True)
+st.markdown(f"<p><b>Impact:</b> {journal_info['impact']}</p>", unsafe_allow_html=True)
+st.markdown(f"<p><a href='{AI_Journal_data['literature_review']['basic_information']['doi']}'><b>DOI:</b> {AI_Journal_data['literature_review']['basic_information']['doi']}</a></p>", unsafe_allow_html=True)
 
 # Abstract Section
 st.header("Abstract")
-st.write(AI_Journal_data["literature_review"]["details"]["abstract"])
+st.write(AI_Journal_data["literature_review"]["abstract"]["summary"])
 
-# Add spacing
-st.markdown("<br>", unsafe_allow_html=True)
-
-# Theory Section
+# Theory and Theoretical Basis
 st.header("Theory and Theoretical Basis")
-st.write("**Basis**: " + AI_Journal_data["literature_review"]["details"]["theory"]["basis"])
-st.write("**Key Insights**:")
-for insight in AI_Journal_data["literature_review"]["details"]["theory"]["key_insights"]:
-    st.write(f"- {insight}")
-
-
-# Add spacing
-st.markdown("<br>", unsafe_allow_html=True)
-
+theories = AI_Journal_data["literature_review"]["details"]["theory_and_theoretical_basis"]["core_theories"]
+for theory in theories:
+    st.markdown(f"<p><b>{theory['name']}:</b> {theory['description']}</p>", unsafe_allow_html=True)
+st.markdown("**Supporting Frameworks:**", unsafe_allow_html=True)
+frameworks = AI_Journal_data["literature_review"]["details"]["theory_and_theoretical_basis"]["supporting_frameworks"]
+for framework in frameworks:
+    st.markdown(f"<li>{framework}</li>", unsafe_allow_html=True)
+st.markdown("**Key Insights:**", unsafe_allow_html=True)
+key_insights = AI_Journal_data["literature_review"]["details"]["theory_and_theoretical_basis"]["key_insights"]
+for insight in key_insights:
+    st.markdown(f"<li>{insight}</li>", unsafe_allow_html=True)
 
 # Hypotheses Section
 st.header("Hypotheses")
-for question in AI_Journal_data["literature_review"]["details"]["hypotheses"]["questions_explored"]:
-    st.write(f"- {question}")
+hypotheses = AI_Journal_data["literature_review"]["details"]["hypotheses"]
+for hypothesis in hypotheses:
+    for key, value in hypothesis.items():
+        st.markdown(f"<p><b>{key}:</b> {value}</p>", unsafe_allow_html=True)
 
-# Add spacing
-st.markdown("---")
-st.markdown("<br>", unsafe_allow_html=True)
-
-
-# Key Variables Table
+# Key Variables
 st.header("Key Variables")
-variables_data = {
-    "Variable Type": ["Independent", "Dependent", "Moderator"],
-    "Details": [
-        ", ".join(AI_Journal_data["literature_review"]["details"]["key_variables"]["independent_variables"]),
-        ", ".join(AI_Journal_data["literature_review"]["details"]["key_variables"]["dependent_variables"]),
-        ", ".join(AI_Journal_data["literature_review"]["details"]["key_variables"]["moderators"]),
-    ],
-}
-st.dataframe(pd.DataFrame(variables_data))
+st.subheader("Independent Variables")
+for variable in AI_Journal_data["literature_review"]["details"]["key_variables"]["independent_variables"]:
+    st.markdown(f"<li>{variable}</li>", unsafe_allow_html=True)
+st.subheader("Dependent Variables")
+for variable in AI_Journal_data["literature_review"]["details"]["key_variables"]["dependent_variables"]:
+    st.markdown(f"<li>{variable}</li>", unsafe_allow_html=True)
+st.subheader("Moderators")
+for moderator in AI_Journal_data["literature_review"]["details"]["key_variables"]["moderators"]:
+    st.markdown(f"<p><b>{moderator['name']}:</b> {moderator['description']}</p>", unsafe_allow_html=True)
 
-# Add spacing
-st.markdown("<br>", unsafe_allow_html=True)
+# Statistical Method
+st.header("Method: Statistical Method")
+method = AI_Journal_data["literature_review"]["details"]["method_statistical_method"]
+st.markdown(f"<p><b>Research Design:</b> {method['research_design']}</p>", unsafe_allow_html=True)
+st.markdown("**Measures:**", unsafe_allow_html=True)
+for measure in method["measures"]:
+    st.markdown(f"<p><b>{measure['name']}:</b> {measure['description']}</p>", unsafe_allow_html=True)
+st.markdown("**Analysis Techniques:**", unsafe_allow_html=True)
+for technique in method["analysis_techniques"]:
+    st.markdown(f"<li>{technique}</li>", unsafe_allow_html=True)
+st.markdown("**Control Variables:**", unsafe_allow_html=True)
+for control in method["control_variables"]:
+    st.markdown(f"<li>{control}</li>", unsafe_allow_html=True)
+st.markdown("**Robustness Checks:**", unsafe_allow_html=True)
+for check in method["robustness_checks"]:
+    st.markdown(f"<li>{check}</li>", unsafe_allow_html=True)
+
+# Sample and Data Sources
+st.header("Sample and Data Sources")
+sample_info = AI_Journal_data["literature_review"]["details"]["sample_and_data_sources"]
+st.markdown(f"<p><b>Sample:</b> {sample_info['sample']}</p>", unsafe_allow_html=True)
+st.markdown("**Industries:**", unsafe_allow_html=True)
+for industry in sample_info["industries"]:
+    st.markdown(f"<li>{industry}</li>", unsafe_allow_html=True)
+st.markdown("**Data Sources:**", unsafe_allow_html=True)
+for source in sample_info["data_sources"]:
+    st.markdown(f"<li>{source}</li>", unsafe_allow_html=True)
 
 
 # Table 1: Effect of Player Capabilities in Different Tournament Formats
@@ -152,7 +164,7 @@ table_1_df = pd.DataFrame({
 })
 
 # Display the exact table as it appears
-st.dataframe(table_1_df)
+st.dataframe(table_1_df,hide_index=True)
 
 # Table 1 Statistics
 st.subheader("Statistics for Effect of Player Capabilities in Different Tournament Formats")
@@ -180,7 +192,7 @@ new_table_df = pd.DataFrame({
     "Engine Games (Loss)": AI_Journal_data_table_2["Table"]["Engine Games (Loss)"]
 })
 
-st.dataframe(new_table_df)
+st.dataframe(new_table_df,hide_index=True)
 
 # Statistics for the New Table
 st.subheader("Statistics for Centaur and Engine Games")
@@ -200,7 +212,7 @@ new_table_df3 = pd.DataFrame({
     "Engine Games (Win)": AI_Journal_data_table_3["Table"]["Engine Games (Win)"],
     "Engine Games (Loss)": AI_Journal_data_table_3["Table"]["Engine Games (Loss)"]
 })
-st.dataframe(new_table_df3)
+st.dataframe(new_table_df3,hide_index=True)
 
 st.subheader("Statistics for Effect of human–machine capabilities in the centaur and engine tournament formats")
 st.write(f"**Pseudo R² for Centaur Games**: {AI_Journal_data_table_3['Table']['Pseudo R²']['Centaur Games']}")
@@ -222,7 +234,7 @@ table_3_df = pd.DataFrame({
     "Human–engine capabilities": AI_Journal_data_table_4["Table"]["Human–engine capabilities"]
 })
 
-st.dataframe(table_3_df)
+st.dataframe(table_3_df,hide_index=True)
 
 # Statistics for Table 3
 st.subheader("Statistics for  Relationship between chess-playing capabilities and human–machine capabilities")

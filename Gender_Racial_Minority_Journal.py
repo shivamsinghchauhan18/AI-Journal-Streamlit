@@ -7,7 +7,7 @@ import pandas as pd
 
 # Load Custom CSS
 def load_css(css_file_path):
-    with open("/Styling/Genereal-Styling.css", "r") as css_file:
+    with open("/Users/shivamsingh/PycharmProjects/Strategic Management/Styling/Genereal-Styling.css", "r") as css_file:
         st.markdown(f"<style>{css_file.read()}</style>", unsafe_allow_html=True)
 
 # Embed the CSS
@@ -27,6 +27,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 # Authors Section
 # Display Authors with Images
+st.header("Authors")
 authors = gender_racial_minority_journal_data["literature_review"]["basic_information"]["authors"]
 
 for author_data in authors:
