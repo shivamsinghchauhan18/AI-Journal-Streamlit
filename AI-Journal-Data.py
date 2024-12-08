@@ -1,5 +1,4 @@
 import os
-import nltk
 import streamlit as st
 import pandas as pd
 import json
