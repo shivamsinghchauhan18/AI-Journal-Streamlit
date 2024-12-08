@@ -10,7 +10,7 @@ import numpy as np
 
 # Load Custom CSS
 def load_css(css_file_path):
-    with open("/Users/shivamsingh/PycharmProjects/Strategic Management/Genereal-Styling.css", "r") as css_file:
+    with open("/Styling/Genereal-Styling.css", "r") as css_file:
         st.markdown(f"<style>{css_file.read()}</style>", unsafe_allow_html=True)
 
 # Embed the CSS
@@ -93,7 +93,7 @@ variables_data = {
         ", ".join(data["literature_review"]["details"]["key_variables"]["moderators"]),
     ],
 }
-st.dataframe(pd.DataFrame(variables_data))
+st.dataframe(pd.DataFrame(variables_data),hide_index=True, use_container_width=True)
 
 
 # Add spacing
@@ -156,46 +156,6 @@ st.markdown("---")
 st.markdown("<br>", unsafe_allow_html=True)
 
 
-# Results and Conclusions
-st.header("Results and Conclusions")
-st.subheader("Substitution Dynamics")
-for substitution in data["literature_review"]["details"]["results_and_conclusions"]["substitution_dynamics"]:
-    st.write(f"- {substitution}")
-
-st.subheader("Moderating Effects")
-st.write("**Historical Conflict:**")
-for historical in data["literature_review"]["details"]["results_and_conclusions"]["moderating_effects"]["historical_conflict"]:
-    st.write(f"- {historical}")
-st.write("**Ongoing Conflict:**")
-for ongoing in data["literature_review"]["details"]["results_and_conclusions"]["moderating_effects"]["ongoing_conflict"]:
-    st.write(f"- {ongoing}")
-
-st.subheader("Strategic Implications")
-for implication in data["literature_review"]["details"]["results_and_conclusions"]["strategic_implications"]:
-    st.write(f"- {implication}")
-
-
-# Add spacing
-st.markdown("---")
-st.markdown("<br>", unsafe_allow_html=True)
-
-
-# Criticism and Future Research
-st.header("Criticism and Future Research")
-st.subheader("Criticism")
-for criticism in data["literature_review"]["details"]["criticism_and_future_research"]["criticism"]:
-    st.write(f"- {criticism}")
-
-st.subheader("Future Research Directions")
-for future_research in data["literature_review"]["details"]["criticism_and_future_research"]["future_research_directions"]:
-    st.write(f"- {future_research}")
-
-
-
-# Add spacing
-st.markdown("---")
-st.markdown("<br>", unsafe_allow_html=True)
-
 
 # Table: Descriptive Statistics and Pairwise Correlations
 st.header("Descriptive Statistics and Pairwise Correlations")
@@ -211,7 +171,7 @@ correlation_table = pd.DataFrame(
     columns=range(1, len(correlations[0]) + 1)
 )
 
-st.dataframe(correlation_table)
+st.dataframe(correlation_table,hide_index=True, use_container_width=True)
 
 # Add note from the table
 st.caption(table_data["Table"]["Note"])
@@ -263,7 +223,7 @@ for variable in models_2[0]:  # Get variable names from the first model
 
 # Create a DataFrame to display the table
 df_table2 = pd.DataFrame(rows, columns=columns)
-st.dataframe(df_table2)
+st.dataframe(df_table2, hide_index=True, use_container_width=True)
 
 # Add a note if any
 st.caption("Note: This table presents the results of fixed-effects panel regressions where robust standard errors are clustered.")
@@ -351,7 +311,7 @@ df_table_3 = pd.DataFrame(rows)
 
 
 # Display the table in Streamlit
-st.dataframe(df_table_3)
+st.dataframe(df_table_3, hide_index=True, use_container_width=True)
 
 # Extract models and variables
 models_table_3 = table3_data["Table"]["Models"]
@@ -416,7 +376,7 @@ for model in models_4:
         "Standard Error": [model[var]["Standard Error"] for var in list(model.keys())[1:]],
         "P-value": [model[var]["P-value"] for var in list(model.keys())[1:]],
     })
-    st.dataframe(df_model)
+    st.dataframe(df_model, hide_index=True, use_container_width=True)
 
 
 # Add spacing
@@ -447,7 +407,57 @@ for model in models_5:
 df_table_5 = pd.DataFrame(table_data)
 
 # Render DataFrame in Streamlit
-st.dataframe(df_table_5)
+st.dataframe(df_table_5, hide_index=True, use_container_width=True)
+
+# Results and Conclusions
+st.header("Results and Conclusions")
+st.subheader("Substitution Dynamics")
+for substitution in data["literature_review"]["details"]["results_and_conclusions"]["substitution_dynamics"]:
+    st.write(f"- {substitution}")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.subheader("Moderating Effects")
+st.write("**Historical Conflict:**")
+for historical in data["literature_review"]["details"]["results_and_conclusions"]["moderating_effects"]["historical_conflict"]:
+    st.write(f"- {historical}")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.write("**Ongoing Conflict:**")
+for ongoing in data["literature_review"]["details"]["results_and_conclusions"]["moderating_effects"]["ongoing_conflict"]:
+    st.write(f"- {ongoing}")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.subheader("Strategic Implications")
+for implication in data["literature_review"]["details"]["results_and_conclusions"]["strategic_implications"]:
+    st.write(f"- {implication}")
+
+
+# Add spacing
+st.markdown("---")
+st.markdown("<br>", unsafe_allow_html=True)
+
+
+# Criticism and Future Research
+st.header("Criticism and Future Research")
+st.subheader("Criticism")
+for criticism in data["literature_review"]["details"]["criticism_and_future_research"]["criticism"]:
+    st.write(f"- {criticism}")
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.subheader("Future Research Directions")
+for future_research in data["literature_review"]["details"]["criticism_and_future_research"]["future_research_directions"]:
+    st.write(f"- {future_research}")
+
+
+
+# Add spacing
+st.markdown("---")
+st.markdown("<br>", unsafe_allow_html=True)
+
+
 
 # Final spacing for clean layout
 st.markdown("<br><br>", unsafe_allow_html=True)
