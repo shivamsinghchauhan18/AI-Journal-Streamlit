@@ -1,9 +1,23 @@
+import os
+
 import streamlit as st
 import pandas as pd
 import json
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+
+
+# Load Custom CSS
+def load_css(css_file_path):
+    with open("/Users/shivamsingh/PycharmProjects/Strategic Management/Genereal-Styling.css", "r") as css_file:
+        st.markdown(f"<style>{css_file.read()}</style>", unsafe_allow_html=True)
+
+# Embed the CSS
+css_path = os.path.join(os.path.dirname(__file__), "style.css")
+load_css(css_path)
+
+
 
 # Load JSON data for the literature review
 with open("/Users/shivamsingh/PycharmProjects/pythonProject1/Journal-Info/ESG-Journal-Data.json", "r") as file:

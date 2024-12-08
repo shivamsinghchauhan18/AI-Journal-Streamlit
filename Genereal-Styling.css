@@ -1,0 +1,66 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Styles */
+h1, h2, h3 {
+    color: #004466;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 40px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Subsection Styling */
+.subheader {
+    color: #005580;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Author Images */
+.author-image {
+    border: 2px solid #004466;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Table Images */
+.bordered-image {
+    border: 2px solid #004466;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+/* Text Highlight */
+.highlight {
+    color: #ff5733;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
