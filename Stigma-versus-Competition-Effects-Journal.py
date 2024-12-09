@@ -38,6 +38,7 @@ for author in data["systematic_literature_review"]["1. Authors"]:
     st.write(f"**Affiliation:** {author['affiliation']}")
     st.write(f"**Expertise:** {author['expertise']}")
     st.write(f"**Contributions:** {author['contributions']}")
+    st.markdown("<br><br>", unsafe_allow_html=True)
 
 st.markdown("---")
 st.markdown("<br>", unsafe_allow_html=True)

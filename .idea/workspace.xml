@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6d7906d-3b65-46ec-85ea-09879167e1e4" name="Changes" comment="Final Commit of Impact-of-Logic-Compatibilit-Journal">
-      <change afterPath="$PROJECT_DIR$/Journal-Figure/Stigma-versus-Competition-Figure1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Figure/Stigma-versus-Competition-Figure2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Figure/Stigma-versus-Competition-Figure3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Figure/Stigma-versus-Competition-Figure4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Info/Stigma-versus-Competition-Effect-Data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Table/Stigma-versus-Competition-Table1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Table/Stigma-versus-Competition-Table1_Continued.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Table/Stigma-versus-Competition-Table2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Table/Stigma-versus-Competition-Table2_Contiued.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stigma-versus-Competition-Effects-Journal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Naumovska Ivana.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dovev_lavie.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b6d7906d-3b65-46ec-85ea-09879167e1e4" name="Changes" comment="Initial Commit of Stigma-versus-Competition-Effects-Journal" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +116,7 @@
       <workItem from="1733515307844" duration="2392000" />
       <workItem from="1733522548523" duration="30056000" />
       <workItem from="1733694336003" duration="445000" />
-      <workItem from="1733694925512" duration="19004000" />
+      <workItem from="1733694925512" duration="19360000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -220,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733757631720</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Initial Commit of Stigma-versus-Competition-Effects-Journal">
+      <option name="closed" value="true" />
+      <created>1733763869140</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733763869140</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +228,8 @@
     <MESSAGE value="Initial Commit of Impact-of-Logic-(In)Compatibility-Journal" />
     <MESSAGE value="Final Commit of Styling" />
     <MESSAGE value="Final Commit of Impact-of-Logic-Compatibilit-Journal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Commit of Impact-of-Logic-Compatibilit-Journal" />
+    <MESSAGE value="Initial Commit of Stigma-versus-Competition-Effects-Journal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit of Stigma-versus-Competition-Effects-Journal" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Strategic_Management$Impact_of_Logic__In_Compatibility_Journal.coverage" NAME="Impact-of-Logic-(In)Compatibility-Journal Coverage Results" MODIFIED="1733693941989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
