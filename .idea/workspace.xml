@@ -4,26 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6d7906d-3b65-46ec-85ea-09879167e1e4" name="Changes" comment="Initial Commit of Impact-of-Logic-(In)Compatibility-Journal">
-      <change afterPath="$PROJECT_DIR$/Impact-of-Logic-Compatibilit-Journal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Journal-Info/Impact-of-logic-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Fabrizio-Ferraro-Headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Strategic Management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Strategic_Management.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="b6d7906d-3b65-46ec-85ea-09879167e1e4" name="Changes" comment="Final Commit of Styling">
+      <change afterPath="$PROJECT_DIR$/Journal-Figure/Impact-of-logic-Figure1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Journal-Figure/Impact-of-logic-Figure2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Journal-Figure/Impact-of-logic-Figure3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Journal-Figure/Impact-of-logic-Figure4a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Journal-Figure/Impact-of-logic-Figure4b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Journal-Figure/Impact-of-logic-Figure5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Journal-Table/Impact-of-logic-Table1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Journal-Table/Impact-of-logic-Table2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Journal-Table/Impact-of-logic-Table3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Journal-Table/Impact-of-logic-Table4a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Journal-Table/Impact-of-logic-Table4b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Journal-Table/Impact-of-logic-Table5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Journal-Table/Impact-of-logic-Table6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Journal-Table/Impact-of-logic-Table7.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI-Journal-Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/AI-Journal-Data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ESG-Journal.py" beforeDir="false" afterPath="$PROJECT_DIR$/ESG-Journal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gender_Racial_Minority_Journal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gender_Racial_Minority_Journal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Impact-of-Logic-(In)Compatibility-Journal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Journal-Info/AI-Journal-Data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Journal-Info/AI-Journal-Data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Journal-Info/ESG-Journal-Data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Journal-Info/ESG-Journal-Data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Journal-Info/Gender_Racial_Minority_Journal_Data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Journal-Info/Gender_Racial_Minority_Journal_Data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Journal-Info/Imapact-of-Logic-(In)Compatibility-Data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Journal-Info/Making-Business-Model-Decision-Journal.json" beforeDir="false" afterPath="$PROJECT_DIR$/Journal-Info/Making-Business-Model-Decision-Journal.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Making-Business-Model-Decision-Journal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Making-Business-Model-Decision-Journal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Fabrizio-Ferraro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Impact-of-Logic-Compatibilit-Journal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Impact-of-Logic-Compatibilit-Journal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Making-Business-Model-Decision-Table1-Continued.png" beforeDir="false" afterPath="$PROJECT_DIR$/Journal-Table/Making-Business-Model-Decision-Table1-Continued.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Making-Business-Model-Decision-Table1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Journal-Table/Making-Business-Model-Decision-Table1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Making-Business-Model-Decision-Table2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Journal-Table/Making-Business-Model-Decision-Table2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Making-Business-Model-Decision-Table3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Journal-Table/Making-Business-Model-Decision-Table3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Making-Business-Model-Decision-Table5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Journal-Table/Making-Business-Model-Decision-Table5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Making-Business-Model-Decision-Table6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Journal-Table/Making-Business-Model-Decision-Table6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Making-Business-Model-Decision-graph1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Journal-Figure/Making-Business-Model-Decision-graph1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Making-Business-Model-Decision-graph2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Journal-Figure/Making-Business-Model-Decision-graph2.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,9 +86,10 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Journal-Figure" />
+      <recent name="$PROJECT_DIR$/Journal-Table" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/Styling" />
-      <recent name="$PROJECT_DIR$/Journal-Table" />
     </key>
   </component>
   <component name="RunManager">
@@ -135,7 +141,7 @@
       <workItem from="1733515307844" duration="2392000" />
       <workItem from="1733522548523" duration="30056000" />
       <workItem from="1733694336003" duration="445000" />
-      <workItem from="1733694925512" duration="6976000" />
+      <workItem from="1733694925512" duration="13784000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -209,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733694307559</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Final Commit of Styling">
+      <option name="closed" value="true" />
+      <created>1733735204796</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733735204796</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +235,8 @@
     <MESSAGE value="Commit of CSS Styling" />
     <MESSAGE value="Last Commit of Making-Business-Model-Decision-Journal" />
     <MESSAGE value="Initial Commit of Impact-of-Logic-(In)Compatibility-Journal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit of Impact-of-Logic-(In)Compatibility-Journal" />
+    <MESSAGE value="Final Commit of Styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Commit of Styling" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Strategic_Management$Impact_of_Logic__In_Compatibility_Journal.coverage" NAME="Impact-of-Logic-(In)Compatibility-Journal Coverage Results" MODIFIED="1733693941989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
