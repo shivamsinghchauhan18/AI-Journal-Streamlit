@@ -1,0 +1,272 @@
+{
+  "systematic_literature_review": {
+    "1. Authors": [
+      {
+        "name": "Ivana Naumovska",
+        "affiliation": "INSEAD, Department of Entrepreneurship and Family Enterprise",
+        "expertise": "Corporate misconduct, industry spillovers, and strategic responses to legitimacy challenges",
+        "contributions": "Leading voice on the implications of corporate deviance for peer firms and industry dynamics",
+        "photo": "/Users/shivamsingh/PycharmProjects/Strategic_Management/images/Naumovska Ivana.jpg"
+      },
+      {
+        "name": "Dovev Lavie",
+        "affiliation": "Bocconi University, Department of Management and Technology",
+        "expertise": "Competitive strategy, resource-based view, and organizational learning in dynamic environments",
+        "contributions": "Extensive research on how competitive dynamics shape firm-level outcomes",
+         "photo": "/Users/shivamsingh/PycharmProjects/Strategic_Management/images/dovev_lavie.jpg"
+      }
+    ],
+    "2. Title": "When an Industry Peer Is Accused of Financial Misconduct: Stigma versus Competition Effects on Non-accused Firms",
+    "3. Year of Publication": "2021",
+    "4. Journal": {
+      "name": "Administrative Science Quarterly",
+      "volume": 66,
+      "issue": 4,
+      "pages": "1130–1172",
+      "description": "Prestigious journal publishing cutting-edge research on organizational and management studies"
+    },
+    "5. Link/DOI": "10.1177/00018392211020662",
+    "6. Abstract": {
+      "summary": "This paper examines the performance outcomes for non-accused firms in an industry where peers face accusations of financial misconduct.",
+      "effects": [
+        {
+          "name": "Stigma Effect",
+          "description": "Non-accused firms are negatively impacted due to association with the industry’s damaged reputation."
+        },
+        {
+          "name": "Competition Effect",
+          "description": "Non-accused firms gain from the accused firm’s weakened market position."
+        }
+      ],
+      "findings": "Using a dataset of U.S. prepackaged software firms, the study reveals a U-shaped relationship between product market overlap and stock market valuation of non-accused firms."
+    },
+    "7. Theory/Theoretical Basis": [
+      {
+        "name": "Institutional Theory",
+        "key_points": [
+          "Non-accused firms face legitimacy challenges when industry peers are accused of misconduct due to shared industry categorization.",
+          "Industry stigmatization reduces customer and investor confidence across firms."
+        ]
+      },
+      {
+        "name": "Competitive Dynamics",
+        "key_points": [
+          "The accused firm’s weakened market position creates opportunities for competitors to capture market share and improve performance."
+        ]
+      },
+      {
+        "name": "Categorization Theory",
+        "key_points": [
+          "Investors use cognitive shortcuts (market overlap measures) to evaluate firms.",
+          "Granularity in these classifications moderates the stigma and competition effects."
+        ]
+      },
+      {
+        "name": "Investor Sophistication",
+        "key_points": [
+          "Sophisticated investors adopt a nuanced perspective, favoring firms with closer product market overlap to the accused as they are more likely to gain competitively."
+        ]
+      }
+    ],
+    "8. Hypotheses": [
+      {
+        "hypothesis": "H1",
+        "statement": "Product market overlap has a U-shaped effect on the stock market valuation of non-accused firms.",
+        "rationale": "Moderate overlap amplifies stigma, but high overlap emphasizes competition effects."
+      },
+      {
+        "hypothesis": "H2",
+        "statement": "Fine-grained market classifications reduce stigma effects and strengthen competition effects.",
+        "rationale": "Specificity in classifications highlights nuanced firm differences, weakening stigma."
+      },
+      {
+        "hypothesis": "H3",
+        "statement": "Sophisticated investors increase holdings in non-accused firms with higher overlap, mitigating stigma.",
+        "rationale": "Such investors recognize the competitive advantage of closer market competitors."
+      }
+    ],
+    "9. Key Variables": {
+      "independent_variables": [
+        "Product Market Overlap: Measured across coarse, intermediate, and fine-grained levels.",
+        "Investor Sophistication: Assessed using data on institutional investor behaviors and portfolio complexity."
+      ],
+      "dependent_variables": [
+        "Stock Market Valuation: Cumulative abnormal returns (CAR) of non-accused firms post-accusation.",
+        "Investor Holdings: Changes in institutional investor portfolios."
+      ],
+      "moderators": [
+        "Granularity of Market Classifications: Determines the level of differentiation between firms.",
+        "Sophisticated vs. Non-sophisticated Investors: Sophisticated investors buffer stigma effects."
+      ]
+    },
+    "10. Method: Statistical Method": {
+      "event_study_method": [
+        "Analyzes the three-day CAR around the announcement of financial misconduct by peer firms.",
+        "Tracks short-term market reactions to isolate stigma and competition effects."
+      ],
+      "ols_regression": [
+        "Tests for linear and quadratic relationships between market overlap and firm valuation.",
+        "Interaction terms used to model the moderating role of granularity and investor sophistication."
+      ],
+      "robustness_checks": [
+        "Additional specifications using generalized least squares (GLS) and bootstrapped errors.",
+        "Lagged variables to account for endogeneity."
+      ],
+      "data_sources": [
+        "Compustat: Firm financial data.",
+        "CRSP: Stock price data for event windows.",
+        "Thomson Reuters 13F: Institutional investor holdings."
+      ]
+    },
+    "11. Sample & Data Sources/Databases": {
+      "sample": "242 publicly traded U.S. prepackaged software firms (1991–2001).",
+      "data_sources": [
+        "Financial Misconduct Database: SEC enforcement actions for financial misrepresentation.",
+        "LexisNexis and SEC filings: Product market overlap information.",
+        "Thomson Reuters 13F: Data on institutional investor portfolios and trading patterns."
+      ]
+    },
+     "results_and_conclusions": {
+    "findings": [
+      {
+        "title": "U-shaped Relationship Between Product Market Overlap and CAR",
+        "details": [
+          "The study finds a non-linear relationship where moderate overlap with accused firms leads to negative spillovers (stigma effect), while high overlap strengthens the non-accused firm’s competitive position (competition effect).",
+          "This suggests that firms in direct competition with the accused benefit more than those with limited differentiation."
+        ]
+      },
+      {
+        "title": "Moderate Overlap Amplifies Stigma Effects",
+        "details": [
+          "Non-accused firms with moderate product overlap experience reputational harm due to perceived association with industry peers accused of misconduct.",
+          "These firms are neither distant enough to dissociate themselves nor close enough to clearly differentiate and leverage competition benefits."
+        ]
+      },
+      {
+        "title": "High Overlap Emphasizes Competition Effects",
+        "details": [
+          "Firms with high product overlap gain from the weakened competitive standing of the accused firms.",
+          "High overlap allows non-accused firms to capture market share, customers, and resources vacated by the accused firms."
+        ]
+      },
+      {
+        "title": "Sophisticated Investors Favor Firms with Higher Market Overlap",
+        "details": [
+          "Institutional investors with sophisticated strategies allocate resources toward non-accused firms with high market overlap to capitalize on competitive advantages.",
+          "These investors recognize the potential for growth and market dominance by firms positioned to directly compete with accused peers."
+        ]
+      },
+      {
+        "title": "Granular Market Classifications Mitigate Stigma Effects",
+        "details": [
+          "Fine-grained market classifications by investors reduce stigma effects by allowing for nuanced differentiation between accused and non-accused firms.",
+          "Such granular perspectives prevent blanket stigma from spreading across the industry and highlight specific competitive dynamics."
+        ]
+      }
+    ],
+    "implications": {
+      "for_firms": [
+        {
+          "title": "Public Perception Management",
+          "details": [
+            "Firms should proactively distance themselves from accused industry peers to minimize stigma effects.",
+            "Transparency and communication strategies are critical in preserving legitimacy during industry-level controversies."
+          ]
+        },
+        {
+          "title": "Leveraging Competitive Opportunities",
+          "details": [
+            "Firms with high product overlap should focus on exploiting market openings created by the accused firm’s weakened position.",
+            "Strategic marketing and customer acquisition campaigns can strengthen competitive standing during such periods."
+          ]
+        }
+      ],
+      "for_regulators": [
+        {
+          "title": "Understanding Firm Categorization",
+          "details": [
+            "Regulators must recognize how investors’ use of categorization frameworks impacts market outcomes and firm valuation.",
+            "Differentiating legitimate firms from accused peers can prevent unnecessary spillovers and promote market stability."
+          ]
+        },
+        {
+          "title": "Policy Design",
+          "details": [
+            "Policies should account for unintended consequences of stigmatization at the industry level.",
+            "Regulators should ensure fair competition and mitigate systemic risks caused by financial misconduct."
+          ]
+        }
+      ]
+    }
+  },
+  "criticism_and_future_research": {
+    "criticism": [
+      {
+        "title": "Focus on U.S. Prepackaged Software Firms",
+        "details": [
+          "The study’s scope is limited to a single industry, which may not fully capture the dynamics of stigma and competition effects in other sectors.",
+          "High interdependence and technological innovation in the software industry may amplify effects that might not generalize to industries with less connectivity or innovation."
+        ]
+      },
+      {
+        "title": "Assumes Granularity of Market Overlap is Universally Relevant",
+        "details": [
+          "The analysis assumes that fine-grained market classifications are equally important across industries and investor groups.",
+          "This assumption may not hold in sectors where product differentiation is less pronounced or investor sophistication is limited."
+        ]
+      },
+      {
+        "title": "Short-term CAR May Not Reflect Long-term Effects",
+        "details": [
+          "The study relies on short-term cumulative abnormal returns (CAR) to measure market responses, potentially overlooking long-term strategic and financial impacts.",
+          "Changes in competitive dynamics and investor behavior could unfold over years, requiring more extended observation periods."
+        ]
+      }
+    ],
+    "future_research": [
+      {
+        "title": "Cross-industry Studies",
+        "details": [
+          "Extend the analysis to diverse industries with varying levels of interdependence, technological complexity, and investor scrutiny.",
+          "Explore whether stigma and competition effects differ in highly regulated sectors (e.g., healthcare, finance) versus loosely regulated ones (e.g., retail, manufacturing)."
+        ]
+      },
+      {
+        "title": "Longitudinal Impacts",
+        "details": [
+          "Investigate how financial misconduct influences industry dynamics and firm outcomes over extended periods.",
+          "Analyze changes in market share, profitability, and customer loyalty for non-accused firms as competitive advantages or disadvantages materialize."
+        ]
+      },
+      {
+        "title": "Role of Social Media",
+        "details": [
+          "Examine how social media platforms and rapid information diffusion amplify or moderate stigma effects.",
+          "Study how digital narratives shape public perception and influence investor behavior during industry controversies."
+        ]
+      },
+      {
+        "title": "Emerging Markets",
+        "details": [
+          "Explore the interplay of stigma and competition effects in less developed regulatory environments.",
+          "Investigate whether institutional voids in emerging markets exacerbate or mitigate industry-level spillovers caused by financial misconduct."
+        ]
+      },
+      {
+        "title": "Investor Behavior Across Segments",
+        "details": [
+          "Analyze differences in response between sophisticated institutional investors and retail investors.",
+          "Examine how behavioral biases and information asymmetry shape investment decisions during episodes of financial misconduct."
+        ]
+      },
+      {
+        "title": "Interaction with Broader Economic Contexts",
+        "details": [
+          "Investigate how macroeconomic factors like recessions, booms, or geopolitical events interact with industry-level misconduct effects.",
+          "Explore whether external shocks exacerbate or overshadow stigma and competition dynamics."
+        ]
+      }
+    ]
+  }
+  }
+}
