@@ -9,13 +9,19 @@ def load_css(css_file_path):
         st.markdown(f"<style>{css_file.read()}</style>", unsafe_allow_html=True)
 
 # Path to the CSS file
-css_file_path = "/Users/shivamsingh/PycharmProjects/Strategic Management/Styling/Genereal-Styling.css"
+css_file_path = "/Users/shivamsingh/PycharmProjects/Strategic_Management/Styling/Genereal-Styling.css"
 load_css(css_file_path)
 
 
 # Load JSON data
-with open("/Users/shivamsingh/PycharmProjects/Strategic Management/Journal-Info/Making-Business-Model-Decision-Journal.json", "r") as file:
+with open("/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Info/Making-Business-Model-Decision-Journal.json", "r") as file:
     journal_data = json.load(file)
+
+st.markdown("""
+       <header>
+           <h1>Systematic Literature Review</h1>
+       </header>
+   """, unsafe_allow_html=True)
 
 # Title and Basic Information
 st.title(journal_data["literature_review"]["basic_information"]["title"])
@@ -159,28 +165,28 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 # Embedding Table Images
 st.header("Balance Checks")
-st.image("images/Making-Business-Model-Decision-Table1.png", caption="Table 1: Balance Checks", use_container_width=True)
-st.image("images/Making-Business-Model-Decision-Table1-Continued.png", caption="Table 1: Balance Checks (Continued)", use_container_width=True)
+st.image("/Users/shivamsingh/PycharmProjects/Strategic_Management/images/Making-Business-Model-Decision-Table1.png", caption="Table 1: Balance Checks", use_container_width=True)
+st.image("/Users/shivamsingh/PycharmProjects/Strategic_Management/images/Making-Business-Model-Decision-Table1-Continued.png", caption="Table 1: Balance Checks (Continued)", use_container_width=True)
 # Add a horizontal divider and spacing
 st.markdown("---")
 st.markdown("<br>", unsafe_allow_html=True)
 
 st.header("Descriptive Statistics and Pairwise Correlation")
-st.image("/Users/shivamsingh/PycharmProjects/Strategic Management/images/Making-Business-Model-Decision-Table2.png", caption="Table 2: Descriptive Statistics and Pairwise Correlation", use_container_width=True)
+st.image("/Users/shivamsingh/PycharmProjects/Strategic_Management/images/Making-Business-Model-Decision-Table2.png", caption="Table 2: Descriptive Statistics and Pairwise Correlation", use_container_width=True)
 
 # Add a horizontal divider and spacing
 st.markdown("---")
 st.markdown("<br>", unsafe_allow_html=True)
 
 st.header("Impact of the Treatment on Performance")
-st.image("images/Making-Business-Model-Decision-Table3.png", caption="Impact of the Treatment on Performance", use_container_width=True)
+st.image("/Users/shivamsingh/PycharmProjects/Strategic_Management/images/Making-Business-Model-Decision-Table3.png", caption="Impact of the Treatment on Performance", use_container_width=True)
 
 # Add a horizontal divider and spacing
 st.markdown("---")
 st.markdown("<br>", unsafe_allow_html=True)
 
 st.header("Impact of Treatment on Performance for different degrees of business model development")
-st.image("images/Making-Business-Model-Decision-graph1.png", caption="Impact of Treatment on Performance for different degrees of business model development", use_container_width=True)
+st.image("/Users/shivamsingh/PycharmProjects/Strategic_Management/images/Making-Business-Model-Decision-graph1.png", caption="Impact of Treatment on Performance for different degrees of business model development", use_container_width=True)
 
 # Add a horizontal divider and spacing
 st.markdown("---")
@@ -188,21 +194,21 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 
 st.header("Alternative interpretations #1 and #2: Confidence and experience")
-st.image("images/Making-Business-Model-Decision-Table5.png", caption="Alternative interpretations #1 and #2: Confidence and experience", use_container_width=True)
+st.image("/Users/shivamsingh/PycharmProjects/Strategic_Management/images/Making-Business-Model-Decision-Table5.png", caption="Alternative interpretations #1 and #2: Confidence and experience", use_container_width=True)
 
 # Add a horizontal divider and spacing
 st.markdown("---")
 st.markdown("<br>", unsafe_allow_html=True)
 
 st.header("Alternative interpretation #3: Choice commitment, value expectations, and certainty about value distribution")
-st.image("images/Making-Business-Model-Decision-Table6.png", caption="Alternative interpretation #3: Choice commitment, value expectations, and certainty about value distribution", use_container_width=True)
+st.image("/Users/shivamsingh/PycharmProjects/Strategic_Management/images/Making-Business-Model-Decision-Table6.png", caption="Alternative interpretation #3: Choice commitment, value expectations, and certainty about value distribution", use_container_width=True)
 
 # Add a horizontal divider and spacing
 st.markdown("---")
 st.markdown("<br>", unsafe_allow_html=True)
 
 st.header("Effect of the treatment on expectations and certainty about value distribution.")
-st.image("images/Making-Business-Model-Decision-graph2.png", caption="Effect of the treatment on expectations and certainty about value distribution.", use_container_width=True)
+st.image("/Users/shivamsingh/PycharmProjects/Strategic_Management/images/Making-Business-Model-Decision-graph2.png", caption="Effect of the treatment on expectations and certainty about value distribution.", use_container_width=True)
 
 # Add a horizontal divider and spacing
 st.markdown("---")
@@ -276,4 +282,12 @@ for direction, items in criticism["future_research_directions"].items():
     for item in items:
         st.markdown(f"<li>{item}</li>", unsafe_allow_html=True)
 
+# Footer
+st.markdown("""
+       <footer>
+           <p>&copy; 2024 Systematic Literature Review App</p>
+       </footer>
+   """, unsafe_allow_html=True)
+
 st.markdown("<br><br>", unsafe_allow_html=True)
+

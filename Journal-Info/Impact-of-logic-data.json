@@ -1,0 +1,255 @@
+{
+  "literature_review": {
+    "basic_information": {
+      "authors": [
+        {
+          "name": "Shipeng Yan",
+          "affiliation": "Faculty of Business and Economics, The University of Hong Kong",
+          "expertise": "Corporate sustainability and ESG expert.",
+          "photo":"/Users/shivamsingh/PycharmProjects/Strategic_Management/images/Yan-Shipeng_1000x1000_2021-940x1000-ct.jpg.webp"
+        },
+        {
+          "name": "Juan (John) Almandoz",
+          "affiliation": "IESE Business School",
+          "expertise": "Specialist in institutional logics and governance.",
+          "photo": "/Users/shivamsingh/PycharmProjects/Strategic_Management/images/Almandoz.jpg"
+        },
+        {
+          "name": "Fabrizio Ferraro",
+          "affiliation": "IESE Business School",
+          "expertise": "Strategic management and sustainability leader.",
+          "photo": "/Users/shivamsingh/PycharmProjects/Strategic_Management/images/Fabrizio-Ferraro-Headshot.jpg"
+        }
+      ],
+      "title": "The Impact of Logic (In)Compatibility: Green Investing, State Policy, and Corporate Environmental Performance",
+      "year_of_publication": 2021,
+      "journal": {
+        "name": "Administrative Science Quarterly",
+        "volume": 66,
+        "issue": 4,
+        "pages": "903–944"
+      },
+      "doi": "10.1177/00018392211005756"
+    },
+    "abstract": {
+      "summary": "This study uses an institutional logics framework to examine green investing’s effectiveness in improving corporate environmental performance and how state policies moderate its impact. Analysis of data from 3,706 firms in 20 countries (2002–2013) finds that green investment positively correlates with environmental performance, but its effectiveness is weakened by strong environmental policies and strengthened by strong shareholder protection policies."
+    },
+    "details": {
+      "theory_and_theoretical_basis": {
+        "core_theories": [
+          {
+            "name": "Institutional Logics Perspective",
+            "description": "Examines how different societal logics (state, market, environment) interact to shape practices and outcomes."
+          }
+        ],
+        "key_insights": [
+          "Financial logic is mobilized to achieve environmental goals.",
+          "State logic moderates the impact of green investing by legitimizing or delegitimizing financial means for environmental ends."
+        ]
+      },
+      "hypotheses": [
+        {
+          "H1a": "Green investment funds are positively associated with corporate environmental performance in a country."
+        },
+        {
+          "H1b": "The presence of Social Investment Forums (SIFs) strengthens the relationship between green funds and environmental performance."
+        },
+        {
+          "H2a": "Strong shareholder protection policies correlate with weaker corporate environmental performance."
+        },
+        {
+          "H2b": "Shareholder protection policies amplify the positive impact of green investing on environmental performance."
+        },
+        {
+          "H3a": "Strong environmental protection policies correlate with higher environmental performance."
+        },
+        {
+          "H3b": "Strong environmental policies weaken the relationship between green investing and environmental performance."
+        }
+      ],
+      "key_variables": {
+        "independent_variables": [
+          "Proportion of green investment funds in the financial sector",
+          "Presence of SIFs",
+          "Stringency of shareholder protection policies",
+          "Stringency of environmental protection policies"
+        ],
+        "dependent_variables": [
+          "Corporate environmental performance (ASSET4 environmental scores)"
+        ],
+        "moderators": [
+          {
+            "name": "Social Investment Forums",
+            "description": "Amplify green investing’s normative influence."
+          },
+          {
+            "name": "Shareholder protection policies",
+            "description": "Increase legitimacy of financial logic."
+          },
+          {
+            "name": "Environmental protection policies",
+            "description": "Reduce legitimacy of private sector environmental initiatives."
+          }
+        ]
+      },
+      "method_statistical_method": {
+        "research_design": "Fixed-effects Ordinary Least Squares (OLS) regression with robust standard errors clustered by country.",
+        "analysis_techniques": [
+          "Interaction terms to test moderation effects",
+          "Generalized Least Squares (GLS) models for robustness",
+          "Bootstrapped standard errors (50, 1,000, and 2,000 replications)"
+        ],
+        "control_variables": [
+          "Firm-level: Leverage, profitability, size, institutional ownership",
+          "Country-level: GDP growth, trade openness, educational levels, policy stringency"
+        ]
+      },
+      "sample_and_data_sources": {
+        "sample": "3,706 publicly listed firms from 20 countries (2002–2013)",
+        "data_sources": [
+          "ASSET4 (firm-level environmental performance, financial metrics)",
+          "Bloomberg (green funds)",
+          "OECD (environmental regulations)",
+          "IMD (shareholder protection index)",
+          "Factiva (environmental protest data)"
+        ]
+      },
+      "results_and_conclusions": {
+    "findings": [
+      {
+        "title": "Impact of Green Investment Funds",
+        "details": [
+          "Countries with a higher proportion of green investment funds see a measurable improvement in firm-level environmental performance.",
+          "Green investing influences corporate behavior indirectly by promoting environmental norms and values within financial markets.",
+          "Even though green funds account for less than 1% of all investment funds, their normative and cultural impact extends beyond their small size."
+        ]
+      },
+      {
+        "title": "Effect of Shareholder Protection Policies",
+        "details": [
+          "Shareholder protection policies typically align with financial logic and are viewed as detrimental to environmental goals. However, when combined with green investing, they amplify its effectiveness.",
+          "Strong shareholder protection provides institutional legitimacy to financial actors like green investors, enhancing their capacity to influence corporate environmental strategies."
+        ]
+      },
+      {
+        "title": "Role of Environmental Protection Policies",
+        "details": [
+          "Strong environmental protection policies improve overall environmental performance across firms by setting regulatory standards.",
+          "Paradoxically, such policies reduce the perceived legitimacy of green investing as an alternative mechanism, thereby weakening its direct influence on corporate behavior."
+        ]
+      },
+      {
+        "title": "Social Investment Forums (SIFs)",
+        "details": [
+          "SIFs act as boundary organizations bridging environmental and financial logics, strengthening green investing’s normative influence.",
+          "They facilitate collaboration among stakeholders, disseminate best practices, and amplify the visibility of green investing initiatives."
+        ]
+      }
+    ],
+    "implications": [
+      {
+        "title": "Balancing Public and Private Roles",
+        "details": [
+          "The findings underscore the importance of complementing state-driven environmental policies with market-based solutions like green investing.",
+          "Policymakers must recognize the interplay between institutional logics to avoid undermining private-sector initiatives unintentionally."
+        ]
+      },
+      {
+        "title": "Aligning Incentives Across Logics",
+        "details": [
+          "Effective environmental governance requires policies that harmonize the goals of environmental, financial, and state logics.",
+          "This includes crafting regulations that do not inadvertently crowd out the private sector’s role in sustainability initiatives."
+        ]
+      },
+      {
+        "title": "Cultural Shift in Financial Markets",
+        "details": [
+          "Green investing contributes to a cultural shift by embedding environmental goals into financial decision-making, indicating the potential for broader societal change."
+        ]
+      }
+    ]
+  },
+      "criticism_and_future_research": {
+    "criticism": [
+      {
+        "title": "Sample Limitations",
+        "details": [
+          "The study relies exclusively on publicly listed firms from developed countries, excluding private firms and firms from emerging markets where institutional logics may operate differently.",
+          "This limits the generalizability of findings to contexts where green investing and state policies are less developed or operate under different norms."
+        ]
+      },
+      {
+        "title": "Small Scale of Green Investing",
+        "details": [
+          "Green investing remains a niche activity within the financial sector, representing less than 1% of funds. The study’s conclusions about its impact may not scale linearly with a broader adoption of green investing.",
+          "The small sample size of green funds relative to total investments introduces potential bias and reduces the study’s ability to infer large-scale systemic effects."
+        ]
+      },
+      {
+        "title": "Exclusion of Other Influencing Factors",
+        "details": [
+          "The study focuses on green investing and state policies but does not consider other factors like global economic trends, trade agreements, or technological advancements that may influence environmental performance."
+        ]
+      },
+      {
+        "title": "Potential Bias in Data Sources",
+        "details": [
+          "Reliance on databases like ASSET4 and Bloomberg introduces potential survivorship and reporting biases.",
+          "Environmental scores may favor firms with better disclosure practices, not necessarily better environmental outcomes."
+        ]
+      }
+    ],
+    "future_research_directions": [
+      {
+        "title": "Inclusion of Private Firms and Emerging Economies",
+        "details": [
+          "Future studies should incorporate private firms and organizations in emerging markets to provide a more holistic view of how green investing operates across different institutional environments.",
+          "Investigate how institutional logics in less-regulated or transitioning economies influence the effectiveness of green investing."
+        ]
+      },
+      {
+        "title": "Exploration of Hybrid Practices",
+        "details": [
+          "Expand the focus to other hybrid practices that leverage institutional logics, such as social entrepreneurship, sustainability-oriented business models, or cross-sector partnerships.",
+          "Analyze how these practices achieve compatibility between competing institutional logics and their broader societal impacts."
+        ]
+      },
+      {
+        "title": "Longitudinal Impacts of Green Investing",
+        "details": [
+          "Conduct longer-term studies to examine whether green investing leads to sustained improvements in environmental performance or if its effects diminish over time.",
+          "Evaluate how the growth of green investing influences the evolution of state policies and cultural norms in financial markets."
+        ]
+      },
+      {
+        "title": "Impact of Technological Advancements",
+        "details": [
+          "Investigate the role of digital platforms, AI, and big data in supporting green investing, such as through better measurement of environmental performance or facilitating more inclusive investment strategies."
+        ]
+      },
+      {
+        "title": "Comparative Institutional Analysis",
+        "details": [
+          "Compare the effectiveness of green investing across countries with varying levels of environmental, shareholder, and financial policies.",
+          "Examine how cultural, political, and economic differences shape the interplay between institutional logics."
+        ]
+      },
+      {
+        "title": "Multi-Logic Synergies",
+        "details": [
+          "Explore synergies between financial, environmental, and state logics to identify optimal conditions for hybrid practices to thrive.",
+          "Analyze the potential for collaborative frameworks where green investing complements rather than competes with state policies."
+        ]
+      },
+      {
+        "title": "Integration with Broader ESG Initiatives",
+        "details": [
+          "Extend research to examine how green investing interacts with other ESG (Environmental, Social, Governance) dimensions.",
+          "Study the implications of green investing on social equity, governance practices, and cross-sector partnerships."
+        ]
+      }
+    ]
+  }
+    }
+  }
+}

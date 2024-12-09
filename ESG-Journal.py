@@ -1,5 +1,4 @@
 import os
-
 import streamlit as st
 import pandas as pd
 import json
@@ -10,39 +9,45 @@ import numpy as np
 
 # Load Custom CSS
 def load_css(css_file_path):
-    with open("/Users/shivamsingh/PycharmProjects/Strategic Management/Styling/Genereal-Styling.css", "r") as css_file:
+    with open(css_file_path, "r") as css_file:
         st.markdown(f"<style>{css_file.read()}</style>", unsafe_allow_html=True)
 
-# Embed the CSS
-css_path = os.path.join(os.path.dirname(__file__), "style.css")
-load_css(css_path)
+# Path to the CSS file
+css_file_path = "/Users/shivamsingh/PycharmProjects/Strategic_Management/Styling/Genereal-Styling.css"
+load_css(css_file_path)
 
 
 
 # Load JSON data for the literature review
-with open("/Users/shivamsingh/PycharmProjects/pythonProject1/Journal-Info/ESG-Journal-Data.json", "r") as file:
+with open("/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Info/ESG-Journal-Data.json", "r") as file:
     data = json.load(file)
 
 # Load JSON data for Table 1 (Descriptive Statistics and Pairwise Correlations)
-with open("/Users/shivamsingh/PycharmProjects/pythonProject1/Journal-Table/ESG-Journal-Table1.json", "r") as file:
+with open("/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Table/ESG-Journal-Table1.json", "r") as file:
     table_data = json.load(file)
 
 # Load JSON data for Table 2 (Fixed-effects panel regressions)
-with open("/Users/shivamsingh/PycharmProjects/pythonProject1/Journal-Table/ESG-Journal-Table2.json", "r") as file:
+with open("/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Table/ESG-Journal-Table2.json", "r") as file:
     table2_data = json.load(file)
 
 # Load JSON data for Table 3
-with open("/Users/shivamsingh/PycharmProjects/pythonProject1/Journal-Table/ESG-Journal-Table-3.json", "r") as file:
+with open("/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Table/ESG-Journal-Table-3.json", "r") as file:
     table3_data = json.load(file)
 
 
 # Load Table 4 JSON data
-with open("/Users/shivamsingh/PycharmProjects/pythonProject1/Journal-Table/ESG-Journal-Table4.json", "r") as file:
+with open("/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Table/ESG-Journal-Table4.json", "r") as file:
     table4_data = json.load(file)
 
 # Load JSON data for Table 5
-with open("/Users/shivamsingh/PycharmProjects/pythonProject1/Journal-Table/ESG-Journal-Table5.json", "r") as file:
+with open("/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Table/ESG-Journal-Table5.json", "r") as file:
     table5_data = json.load(file)
+
+st.markdown("""
+       <header>
+           <h1>Systematic Literature Review</h1>
+       </header>
+   """, unsafe_allow_html=True)
 
 # App Title and Basic Information
 st.title(data["literature_review"]["basic_information"]["title"])
@@ -457,7 +462,11 @@ for future_research in data["literature_review"]["details"]["criticism_and_futur
 st.markdown("---")
 st.markdown("<br>", unsafe_allow_html=True)
 
-
+st.markdown("""
+       <footer>
+           <p>&copy; 2024 Systematic Literature Review App</p>
+       </footer>
+   """, unsafe_allow_html=True)
 
 # Final spacing for clean layout
 st.markdown("<br><br>", unsafe_allow_html=True)

@@ -4,32 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6d7906d-3b65-46ec-85ea-09879167e1e4" name="Changes" comment="Initial Commit">
+    <list default="true" id="b6d7906d-3b65-46ec-85ea-09879167e1e4" name="Changes" comment="Initial Commit of Impact-of-Logic-(In)Compatibility-Journal">
+      <change afterPath="$PROJECT_DIR$/Impact-of-Logic-Compatibilit-Journal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Journal-Info/Impact-of-logic-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Fabrizio-Ferraro-Headshot.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Strategic Management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Strategic_Management.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI-Journal-Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/AI-Journal-Data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ESG-Journal.py" beforeDir="false" afterPath="$PROJECT_DIR$/ESG-Journal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gender_Racial_Minority_Journal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gender_Racial_Minority_Journal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Impact-of-Logic-(In)Compatibility-Journal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Journal-Info/AI-Journal-Data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Journal-Info/AI-Journal-Data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Journal-Info/ESG-Journal-Data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Journal-Info/ESG-Journal-Data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Journal-Info/Gender_Racial_Minority_Journal_Data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Journal-Info/Gender_Racial_Minority_Journal_Data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Journal-Info/Imapact-of-Logic-(In)Compatibility-Data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Journal-Info/Making-Business-Model-Decision-Journal.json" beforeDir="false" afterPath="$PROJECT_DIR$/Journal-Info/Making-Business-Model-Decision-Journal.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Making-Business-Model-Decision-Journal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Making-Business-Model-Decision-Journal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Fabrizio-Ferraro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "shivamsinghchauhan18"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shivamsinghchauhan18&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/shivamsinghchauhan18/AI-Journal-Streamlit.git",
-    "accountId": "c2d420f9-134d-4577-9587-2fc755633bb1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shivamsinghchauhan18/AI-Journal-Streamlit.git&quot;,
+    &quot;accountId&quot;: &quot;c2d420f9-134d-4577-9587-2fc755633bb1&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2prDSaKqGWu17V7nWT5GLUoSPka" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,9 +63,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Impact-of-Logic-(In)Compatibility-Journal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/shivamsingh/PycharmProjects/Strategic Management",
+    "last_opened_file_path": "/Users/shivamsingh/PycharmProjects/Strategic_Management",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,8 +77,44 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/Styling" />
+      <recent name="$PROJECT_DIR$/Journal-Table" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Impact-of-Logic-(In)Compatibility-Journal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Strategic_Management" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Impact-of-Logic-(In)Compatibility-Journal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Impact-of-Logic-(In)Compatibility-Journal" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -71,6 +133,9 @@
       <option name="presentableId" value="Default" />
       <updated>1733515301619</updated>
       <workItem from="1733515307844" duration="2392000" />
+      <workItem from="1733522548523" duration="30056000" />
+      <workItem from="1733694336003" duration="445000" />
+      <workItem from="1733694925512" duration="6976000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -104,7 +169,47 @@
       <option name="project" value="LOCAL" />
       <updated>1733516846090</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial Commit of Gender_Racial_Minority_Journal">
+      <option name="closed" value="true" />
+      <created>1733587014649</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733587014649</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Commit of CSS Styling">
+      <option name="closed" value="true" />
+      <created>1733670232614</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733670232614</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Last Commit of Making-Business-Model-Decision-Journal">
+      <option name="closed" value="true" />
+      <created>1733680219384</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733680219384</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Last Commit of Making-Business-Model-Decision-Journal">
+      <option name="closed" value="true" />
+      <created>1733685304639</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733685304639</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Initial Commit of Impact-of-Logic-(In)Compatibility-Journal">
+      <option name="closed" value="true" />
+      <created>1733694307559</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733694307559</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +217,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Initial Commit of Gender_Racial_Minority_Journal" />
+    <MESSAGE value="Commit of CSS Styling" />
+    <MESSAGE value="Last Commit of Making-Business-Model-Decision-Journal" />
+    <MESSAGE value="Initial Commit of Impact-of-Logic-(In)Compatibility-Journal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit of Impact-of-Logic-(In)Compatibility-Journal" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Strategic_Management$Impact_of_Logic__In_Compatibility_Journal.coverage" NAME="Impact-of-Logic-(In)Compatibility-Journal Coverage Results" MODIFIED="1733693941989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

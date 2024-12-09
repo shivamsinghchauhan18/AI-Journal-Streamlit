@@ -7,16 +7,25 @@ import pandas as pd
 
 # Load Custom CSS
 def load_css(css_file_path):
-    with open("/Users/shivamsingh/PycharmProjects/Strategic Management/Styling/Genereal-Styling.css", "r") as css_file:
+    with open(css_file_path, "r") as css_file:
         st.markdown(f"<style>{css_file.read()}</style>", unsafe_allow_html=True)
 
-# Embed the CSS
-css_path = os.path.join(os.path.dirname(__file__), "style.css")
-load_css(css_path)
+# Path to the CSS file
+css_file_path = "/Users/shivamsingh/PycharmProjects/Strategic_Management/Styling/Genereal-Styling.css"
+load_css(css_file_path)
+
 
 # Load JSON data
-with open("Journal-Info/Gender_Racial_Minority_Journal_Data.json", "r") as file:
+with open("/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Info/Gender_Racial_Minority_Journal_Data.json", "r") as file:
     gender_racial_minority_journal_data = json.load(file)
+
+
+
+st.markdown("""
+       <header>
+           <h1>Systematic Literature Review</h1>
+       </header>
+   """, unsafe_allow_html=True)
 
 # App Title
 st.title(gender_racial_minority_journal_data["literature_review"]["basic_information"]["title"])
@@ -177,10 +186,10 @@ st.header("Descriptive Statistics and Pairwise Correlations")
 st.subheader("Table 1: Pairwise Correlations and Descriptive Statistics")
 
 # Add Images
-st.image("/Users/shivamsingh/PycharmProjects/Strategic Management/Journal-Table/ Gender_Racial_Journal_Table1.png",
+st.image("/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Table/ Gender_Racial_Journal_Table1.png",
          caption="Table 1: Pairwise Correlations and Descriptive Statistics (Part 1)", use_container_width=True)
 st.image(
-    "/Users/shivamsingh/PycharmProjects/Strategic Management/Journal-Table/Gender_Racial_Journal_Table1_continued.png",
+    "/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Table/Gender_Racial_Journal_Table1_continued.png",
     caption="Table 1: Pairwise Correlations and Descriptive Statistics (Part 2)", use_container_width=True)
 
 # Notes or Caption
@@ -197,17 +206,17 @@ st.write(
     "The table below presents the results of econometric modeling, showing the relationship between various CEO and board-level characteristics and firm performance.")
 
 # Add the first part of Table 2
-st.image("/Users/shivamsingh/PycharmProjects/Strategic Management/Journal-Table/Gender_Racial_Journal_Table2.png",
+st.image("/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Table/Gender_Racial_Journal_Table2.png",
          caption="Results of Econometric Modeling (Part 1)", use_container_width=True)
 
 # Add the second part of Table 2
 st.image(
-    "/Users/shivamsingh/PycharmProjects/Strategic Management/Journal-Table/Gender_Racial_Journal_Table2_Continued.png",
+    "/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Table/Gender_Racial_Journal_Table2_Continued.png",
     caption="Results of Econometric Modeling (Part 2)", use_container_width=True)
 
 # Add the third part of Table 2
 st.image(
-    "/Users/shivamsingh/PycharmProjects/Strategic Management/Journal-Table/Gender_Racial_Journbal_Table2_Continued_1.png",
+    "/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Table/Gender_Racial_Journbal_Table2_Continued_1.png",
     caption="Results of Econometric Modeling (Part 3)", use_container_width=True)
 
 # Add a horizontal divider and spacing
@@ -246,5 +255,13 @@ for criticism in gender_racial_minority_journal_data["literature_review"]["detai
 st.subheader("Future Research Directions")
 for direction in gender_racial_minority_journal_data["literature_review"]["details"]["criticism_and_future_research"]["future_research_directions"]:
     st.write(f"- {direction}")
+
+
+# Footer
+st.markdown("""
+       <footer>
+           <p>&copy; 2024 Systematic Literature Review App</p>
+       </footer>
+   """, unsafe_allow_html=True)
 
 st.markdown("<br><br>", unsafe_allow_html=True)

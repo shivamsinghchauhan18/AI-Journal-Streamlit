@@ -6,19 +6,19 @@
           "name": "Sebastian Krakowski",
           "affiliation": "Professor of Strategy, Stockholm School of Economics",
           "expertise": "Artificial intelligence in competitive strategy, human-machine collaboration",
-          "photo": "/path/to/sebastian-krakowski.jpg"
+          "photo": "/Users/shivamsingh/PycharmProjects/Strategic_Management/images/images.jpeg"
         },
         {
           "name": "Johannes Luger",
           "affiliation": "Professor of Strategic Management, University of St. Gallen",
           "expertise": "Resource-based view, strategic capabilities, and technology adoption",
-          "photo": "/path/to/johannes-luger.jpg"
+          "photo": "/Users/shivamsingh/PycharmProjects/Strategic_Management/images/Johannes-Luger.jpg"
         },
         {
           "name": "Sebastian Raisch",
           "affiliation": "Professor of Strategy, University of Geneva",
           "expertise": "Organizational adaptation, AI-driven competitive advantage",
-          "photo": "/path/to/sebastian-raisch.jpg"
+          "photo": "/Users/shivamsingh/PycharmProjects/Strategic_Management/images/Sebastian-Raisch.jpg"
         }
       ],
       "title": "Artificial Intelligence and the Changing Sources of Competitive Advantage",

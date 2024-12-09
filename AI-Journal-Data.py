@@ -6,7 +6,7 @@ import json
 
 # Load Custom CSS
 def load_css(css_file_path):
-    with open("/Users/shivamsingh/PycharmProjects/Strategic Management/Styling/Genereal-Styling.css", "r") as css_file:
+    with open("/Users/shivamsingh/PycharmProjects/Strategic_Management/Styling/Genereal-Styling.css", "r") as css_file:
         st.markdown(f"<style>{css_file.read()}</style>", unsafe_allow_html=True)
 
 # Embed the CSS
@@ -14,7 +14,7 @@ css_path = os.path.join(os.path.dirname(__file__), "style.css")
 load_css(css_path)
 
 # Load JSON data for the literature review
-with open("/Users/shivamsingh/PycharmProjects/pythonProject1/Journal-Info/AI-Journal-Data.json", "r") as file:
+with open("/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Info/AI-Journal-Data.json", "r") as file:
     AI_Journal_data = json.load(file)
 
 
@@ -22,19 +22,25 @@ with open("/Users/shivamsingh/PycharmProjects/pythonProject1/Journal-Info/AI-Jou
 
 
 # Load JSON data for Table 1
-with open("/Users/shivamsingh/PycharmProjects/pythonProject1/Journal-Table/AI-Journal-Table1.json", "r") as file:
+with open("/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Table/AI-Journal-Table1.json", "r") as file:
     AI_Journal_data_table_1 = json.load(file)
 
 # Load JSON data for the new table
-with open("/Users/shivamsingh/PycharmProjects/pythonProject1/Journal-Table/AI-Journal-Table2.json", "r") as file:
+with open("/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Table/AI-Journal-Table2.json", "r") as file:
     AI_Journal_data_table_2 = json.load(file)
 
-with open("/Users/shivamsingh/PycharmProjects/pythonProject1/Journal-Table/AI-Journal-Table3.json", "r") as file:
+with open("/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Table/AI-Journal-Table3.json", "r") as file:
     AI_Journal_data_table_3 = json.load(file)
 
 # Load JSON data for Table 3
-with open("/Users/shivamsingh/PycharmProjects/pythonProject1/Journal-Table/AI-Journal-Table4.json", "r") as file:
+with open("/Users/shivamsingh/PycharmProjects/Strategic_Management/Journal-Table/AI-Journal-Table4.json", "r") as file:
     AI_Journal_data_table_4 = json.load(file)
+
+st.markdown("""
+       <header>
+           <h1>Systematic Literature Review</h1>
+       </header>
+   """, unsafe_allow_html=True)
 
 # Title and Basic Information
 st.title(AI_Journal_data["literature_review"]["basic_information"]["title"])
@@ -64,17 +70,25 @@ st.write(AI_Journal_data["literature_review"]["abstract"]["summary"])
 
 # Theory and Theoretical Basis
 st.header("Theory and Theoretical Basis")
+
+# Extract core theories
 theories = AI_Journal_data["literature_review"]["details"]["theory_and_theoretical_basis"]["core_theories"]
 for theory in theories:
     st.markdown(f"<p><b>{theory['name']}:</b> {theory['description']}</p>", unsafe_allow_html=True)
-st.markdown("**Supporting Frameworks:**", unsafe_allow_html=True)
-frameworks = AI_Journal_data["literature_review"]["details"]["theory_and_theoretical_basis"]["supporting_frameworks"]
-for framework in frameworks:
-    st.markdown(f"<li>{framework}</li>", unsafe_allow_html=True)
-st.markdown("**Key Insights:**", unsafe_allow_html=True)
+
+# Check and display supporting frameworks if available
+frameworks = AI_Journal_data["literature_review"]["details"]["theory_and_theoretical_basis"].get("supporting_frameworks", [])
+if frameworks:
+    st.markdown("**Supporting Frameworks:**", unsafe_allow_html=True)
+    for framework in frameworks:
+        st.markdown(f"<li>{framework}</li>", unsafe_allow_html=True)
+
+# Display key insights
 key_insights = AI_Journal_data["literature_review"]["details"]["theory_and_theoretical_basis"]["key_insights"]
-for insight in key_insights:
-    st.markdown(f"<li>{insight}</li>", unsafe_allow_html=True)
+if key_insights:
+    st.markdown("**Key Insights:**", unsafe_allow_html=True)
+    for insight in key_insights:
+        st.markdown(f"<li>{insight}</li>", unsafe_allow_html=True)
 
 # Hypotheses Section
 st.header("Hypotheses")
@@ -95,22 +109,22 @@ st.subheader("Moderators")
 for moderator in AI_Journal_data["literature_review"]["details"]["key_variables"]["moderators"]:
     st.markdown(f"<p><b>{moderator['name']}:</b> {moderator['description']}</p>", unsafe_allow_html=True)
 
-# Statistical Method
-st.header("Method: Statistical Method")
-method = AI_Journal_data["literature_review"]["details"]["method_statistical_method"]
-st.markdown(f"<p><b>Research Design:</b> {method['research_design']}</p>", unsafe_allow_html=True)
-st.markdown("**Measures:**", unsafe_allow_html=True)
-for measure in method["measures"]:
-    st.markdown(f"<p><b>{measure['name']}:</b> {measure['description']}</p>", unsafe_allow_html=True)
-st.markdown("**Analysis Techniques:**", unsafe_allow_html=True)
-for technique in method["analysis_techniques"]:
-    st.markdown(f"<li>{technique}</li>", unsafe_allow_html=True)
-st.markdown("**Control Variables:**", unsafe_allow_html=True)
-for control in method["control_variables"]:
-    st.markdown(f"<li>{control}</li>", unsafe_allow_html=True)
-st.markdown("**Robustness Checks:**", unsafe_allow_html=True)
-for check in method["robustness_checks"]:
-    st.markdown(f"<li>{check}</li>", unsafe_allow_html=True)
+# # Statistical Method
+# st.header("Method: Statistical Method")
+# method = AI_Journal_data["literature_review"]["details"]["method_statistical_method"]
+# st.markdown(f"<p><b>Research Design:</b> {method['research_design']}</p>", unsafe_allow_html=True)
+# st.markdown("**Measures:**", unsafe_allow_html=True)
+# for measure in method["measures"]:
+#     st.markdown(f"<p><b>{measure['name']}:</b> {measure['description']}</p>", unsafe_allow_html=True)
+# st.markdown("**Analysis Techniques:**", unsafe_allow_html=True)
+# for technique in method["analysis_techniques"]:
+#     st.markdown(f"<li>{technique}</li>", unsafe_allow_html=True)
+# st.markdown("**Control Variables:**", unsafe_allow_html=True)
+# for control in method["control_variables"]:
+#     st.markdown(f"<li>{control}</li>", unsafe_allow_html=True)
+# st.markdown("**Robustness Checks:**", unsafe_allow_html=True)
+# for check in method["robustness_checks"]:
+#     st.markdown(f"<li>{check}</li>", unsafe_allow_html=True)
 
 # Sample and Data Sources
 st.header("Sample and Data Sources")
@@ -246,43 +260,58 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 # Results Section
 st.header("Results and Conclusions")
+
+# Substitution Dynamics
 st.subheader("Substitution Dynamics")
 for substitution in AI_Journal_data["literature_review"]["details"]["results_and_conclusions"]["substitution_dynamics"]:
     st.write(f"- {substitution}")
-# Add spacing
-st.markdown("<br>", unsafe_allow_html=True)
+st.markdown("<br>", unsafe_allow_html=True)  # Add spacing for better layout
+
+# Complementation Dynamics
 st.subheader("Complementation Dynamics")
 for complementation in AI_Journal_data["literature_review"]["details"]["results_and_conclusions"]["complementation_dynamics"]:
     st.write(f"- {complementation}")
-# Add spacing
-st.markdown("<br>", unsafe_allow_html=True)
-st.subheader("Limitations of Machine Capabilities")
-for limitation in AI_Journal_data["literature_review"]["details"]["results_and_conclusions"]["limitations_of_machine_capabilities"]:
-    st.write(f"- {limitation}")
-
-# Add spacing
 st.markdown("<br>", unsafe_allow_html=True)
 
-st.subheader("Conclusion")
-for conclusion in AI_Journal_data["literature_review"]["details"]["results_and_conclusions"]["conclusion"]:
-    st.write(f"- {conclusion}")
-
-# Add spacing
+# Quantitative Insights
+st.subheader("Quantitative Insights")
+for insight in AI_Journal_data["literature_review"]["details"]["results_and_conclusions"]["quantitative_insights"]:
+    st.write(f"- {insight}")
 st.markdown("<br>", unsafe_allow_html=True)
 
+# Strategic Implications
+st.subheader("Strategic Implications")
+for implication in AI_Journal_data["literature_review"]["details"]["results_and_conclusions"]["strategic_implications"]:
+    st.write(f"- {implication}")
+st.markdown("<br>", unsafe_allow_html=True)
+
+# Criticism and Future Research
 st.header("Criticism and Future Research")
+
+# Criticism
 st.subheader("Criticism")
 for criticism in AI_Journal_data["literature_review"]["details"]["criticism_and_future_research"]["criticism"]:
     st.write(f"- {criticism}")
+st.markdown("<br>", unsafe_allow_html=True)
 
+# Future Research Directions
 st.subheader("Future Research Directions")
-for future_research in AI_Journal_data["literature_review"]["details"]["criticism_and_future_research"]["future_research_directions"]:
-    st.write(f"- {future_research}")
+for direction in AI_Journal_data["literature_review"]["details"]["criticism_and_future_research"]["future_research_directions"]:
+    st.write(f"- {direction}")
 
 
-# Final spacing for clean layout
-st.markdown("<br><br>", unsafe_allow_html=True)
+st.markdown("---")
+st.markdown("<br>", unsafe_allow_html=True)
 
+
+st.markdown("""
+       <footer>
+           <p>&copy; 2024 Systematic Literature Review App</p>
+       </footer>
+   """, unsafe_allow_html=True)
+
+
+st.markdown("<br><br>", unsafe_allow_html=True)  # Final spacing for clean layout
 
 
 
